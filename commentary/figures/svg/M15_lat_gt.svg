@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="300.0" r="250.0" stroke="#b0301f" stroke-width="1.8" fill="none"/>
+<circle cx="380.0" cy="300.0" r="150.0" stroke="#b0301f" stroke-width="1.8" fill="none"/>
+<circle cx="380.0" cy="300.0" r="55.0" stroke="#b0301f" stroke-width="1.8" fill="none"/>
+<line x1="380.0" y1="50.0" x2="380.0" y2="550.0" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="380.0" cy="50.0" r="4.5" fill="#2b1d12"/>
+<text x="380.0" y="34.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الجنوب</text>
+<circle cx="380.0" cy="550.0" r="6" fill="#2b1d12"/>
+<text x="380.0" y="568.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الشمال</text>
+<circle cx="380.0" cy="300.0" r="4" fill="#2b1d12"/>
+<text x="390.0" y="290.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">سمت الرأس</text>
+<circle cx="380.0" cy="390.0" r="4.5" fill="#2b1d12"/>
+<text x="390.0" y="390.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">قطب العالم</text>
+<circle cx="380.0" cy="340.0" r="4.5" fill="#2b1d12"/>
+<text x="368.0" y="340.0" font-size="13" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">قطب البروج في غاية ارتفاعه</text>
+<text x="220.0" y="240.0" font-size="14" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle">أجزاء أبدية الظهور</text>
+<text x="540.0" y="450.0" font-size="14" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle">أجزاء أبدية الخفاء</text>
+<text x="380.0" y="600.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">إذا زاد العرض على تمام الميل الكلي مال قطب البروج عن سمت الرأس بقدر الزيادة</text></svg>

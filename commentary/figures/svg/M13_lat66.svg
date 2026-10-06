@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="280.0" r="240.0" stroke="#b0301f" stroke-width="1.8" fill="none"/>
+<circle cx="380.0" cy="280.0" r="160.0" stroke="#b0301f" stroke-width="1.8" fill="none"/>
+<circle cx="380.0" cy="280.0" r="70.0" stroke="#b0301f" stroke-width="1.8" fill="none"/>
+<line x1="380.0" y1="40.0" x2="380.0" y2="520.0" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="380.0" cy="40.0" r="4.5" fill="#2b1d12"/>
+<text x="380.0" y="24.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الجنوب</text>
+<circle cx="380.0" cy="520.0" r="6" fill="#2b1d12"/>
+<text x="380.0" y="538.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الشمال</text>
+<circle cx="380.0" cy="280.0" r="4.5" fill="#2b1d12"/>
+<text x="396.0" y="284.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">سمت الرأس = قطب البروج</text>
+<circle cx="380.0" cy="350.0" r="4.5" fill="#2b1d12"/>
+<text x="396.0" y="354.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">قطب العالم (ارتفاعه ٦٦;٣٠)</text>
+<circle cx="140.0" cy="280.0" r="4.5" fill="#2b1d12"/>
+<text x="132.0" y="280.0" font-size="14" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">المغرب: الميزان</text>
+<circle cx="620.0" cy="280.0" r="4.5" fill="#2b1d12"/>
+<text x="628.0" y="280.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">المشرق: الحمل</text>
+<text x="360.0" y="80.0" font-size="13" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">الجدي على نقطة الجنوب</text>
+<text x="360.0" y="485.0" font-size="13" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">السرطان على نقطة الشمال</text>
+<text x="380.0" y="570.0" font-size="15" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle">حين يبلغ قطب البروج سمت الرأس تنطبق منطقة البروج على الأفق</text></svg>

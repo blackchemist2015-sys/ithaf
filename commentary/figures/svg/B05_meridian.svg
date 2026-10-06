@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="290.0" r="220.0" stroke="#2b1d12" stroke-width="2" fill="none"/>
+<line x1="130.0" y1="290.0" x2="630.0" y2="290.0" stroke="#2b1d12" stroke-width="2" opacity="1" stroke-linecap="round"/>
+<text x="636.0" y="290.0" font-size="15" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">الجنوب</text>
+<text x="124.0" y="290.0" font-size="15" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">الشمال</text>
+<text x="570.0" y="306.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الأفق</text>
+<circle cx="380.0" cy="70.0" r="4" fill="#2b1d12"/>
+<text x="370.0" y="54.0" font-size="15" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">سمت الرأس</text>
+<line x1="556.5" y1="421.4" x2="203.5" y2="158.6" stroke="#1f4e79" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="203.5" cy="158.6" r="4.5" fill="#1f4e79"/>
+<text x="153.5" y="150.6" font-size="15" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle">القطب الشمالي</text>
+<path d="M142.0,290.0 A238.0,238.0 0 0 1 189.1,147.9" stroke="#1f4e79" stroke-width="2.4" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="121.8" y="204.4" font-size="15" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">العرض</text>
+<line x1="380.0" y1="290.0" x2="511.4" y2="113.5" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="380.0" y1="290.0" x2="248.6" y2="466.5" stroke="#b0301f" stroke-width="1.0" stroke-dasharray="4,3" opacity="1" stroke-linecap="round"/>
+<text x="561.4" y="107.5" font-size="15" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle">معدل النهار</text>
+<path d="M439.1,210.6 A99.0,99.0 0 0 1 479.0,290.0" stroke="#b0301f" stroke-width="2" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="513.2" y="223.1" font-size="14" fill="#b0301f" text-anchor="middle" direction="rtl" dominant-baseline="middle">تمام العرض</text>
+<line x1="380.0" y1="290.0" x2="429.8" y2="75.7" stroke="#8a6d1c" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<circle cx="429.8" cy="75.7" r="7" fill="#8a6d1c"/>
+<text x="443.8" y="61.7" font-size="14" fill="#8a6d1c" text-anchor="end" direction="rtl" dominant-baseline="middle">الشمس في غاية ارتفاعها (آخر الجوزاء)</text>
+<path d="M417.4,129.3 A165.0,165.0 0 0 1 478.5,157.6" stroke="#8a6d1c" stroke-width="2.4" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="460.3" y="116.7" font-size="14" fill="#8a6d1c" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">الميل</text>
+<path d="M392.5,236.4 A55.0,55.0 0 0 1 435.0,290.0" stroke="#2e6b3a" stroke-width="2" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="480.0" y="360.0" font-size="16" fill="#2e6b3a" text-anchor="middle" direction="rtl" dominant-baseline="middle">الغاية = تمام العرض + الميل الشمالي</text>
+<text x="380.0" y="550.0" font-size="16" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">العرض = ٩٠° − الغاية + الميل الشمالي = ٩٠ − ٧٦;٥٥ + ٢٣;٣٥ ≈ ٣٦;٤٠ لتونس</text></svg>

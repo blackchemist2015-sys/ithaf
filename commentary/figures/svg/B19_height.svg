@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="470" viewBox="0 0 860 470" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><line x1="40.0" y1="380.0" x2="820.0" y2="380.0" stroke="#2b1d12" stroke-width="2" opacity="1" stroke-linecap="round"/>
+<path d="M700,380 L700,100 L750,100 L750,380 Z" stroke="#2b1d12" stroke-width="2" fill="#efe3d3" opacity="1" stroke-linejoin="round"/>
+<line x1="220.0" y1="380.0" x2="220.0" y2="330.0" stroke="#2b1d12" stroke-width="3" opacity="1" stroke-linecap="round"/>
+<circle cx="220.0" cy="322.0" r="8.0" stroke="#2b1d12" stroke-width="2" fill="none"/>
+<line x1="220.0" y1="330.0" x2="700.0" y2="100.0" stroke="#b0301f" stroke-width="1.6" stroke-dasharray="7,4" opacity="1" stroke-linecap="round"/>
+<line x1="220.0" y1="330.0" x2="700.0" y2="330.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4,3" opacity="1" stroke-linecap="round"/>
+<path d="M301.2,291.1 A90.0,90.0 0 0 1 310.0,330.0" stroke="#2e6b3a" stroke-width="2.4" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="340.0" y="304.0" font-size="15" fill="#2e6b3a" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">الارتفاع</text>
+<text x="460.0" y="402.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">ما بين القدمين وأصل القائم (المحفوظ)</text>
+<text x="760.0" y="220.0" font-size="15" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">طول القائم</text>
+<text x="210.0" y="355.0" font-size="13" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">ما بين البصر والأرض</text>
+<text x="430.0" y="450.0" font-size="16" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الطول = المسافة × ظل الارتفاع ⁄ القامة + ما بين البصر والأرض</text></svg>

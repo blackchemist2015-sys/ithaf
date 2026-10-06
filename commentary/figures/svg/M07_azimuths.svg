@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="380.0" r="300.0" stroke="#b0301f" stroke-width="2" fill="none"/>
+<line x1="380.0" y1="80.0" x2="380.0" y2="680.0" stroke="#b0301f" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<line x1="80.0" y1="380.0" x2="680.0" y2="380.0" stroke="#b0301f" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<text x="380.0" y="62.0" font-size="16" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">نقطة الشمال</text>
+<text x="380.0" y="702.0" font-size="16" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">نقطة الجنوب</text>
+<text x="692.0" y="380.0" font-size="16" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">نقطة المشرق</text>
+<text x="68.0" y="380.0" font-size="16" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">نقطة المغرب</text>
+<text x="480.0" y="366.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">دائرة أول السموت</text>
+<text x="394.0" y="500.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle" transform="rotate(90.0 394.0 500.0)">دائرة نصف النهار</text>
+<line x1="380.0" y1="380.0" x2="639.8" y2="230.0" stroke="#b0301f" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<circle cx="541.1" cy="287.0" r="4.5" fill="#2b1d12"/>
+<path d="M650.2,224.0 A312.0,312.0 0 0 1 692.0,380.0" stroke="#2e6b3a" stroke-width="3" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="611.8" y="317.9" font-size="14" fill="#2e6b3a" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">سمت شرقي شمالي</text>
+<text x="486.4" y="296.9" font-size="12" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">دائرة ارتفاع</text>
+<line x1="380.0" y1="380.0" x2="639.8" y2="530.0" stroke="#b0301f" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<circle cx="541.1" cy="473.0" r="4.5" fill="#2b1d12"/>
+<path d="M692.0,380.0 A312.0,312.0 0 0 1 650.2,536.0" stroke="#2e6b3a" stroke-width="3" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="611.8" y="442.1" font-size="14" fill="#2e6b3a" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">سمت شرقي جنوبي</text>
+<text x="486.4" y="463.1" font-size="12" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">دائرة ارتفاع</text>
+<line x1="380.0" y1="380.0" x2="120.2" y2="530.0" stroke="#b0301f" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<circle cx="218.9" cy="473.0" r="4.5" fill="#2b1d12"/>
+<path d="M109.8,536.0 A312.0,312.0 0 0 1 68.0,380.0" stroke="#2e6b3a" stroke-width="3" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="148.2" y="442.1" font-size="14" fill="#2e6b3a" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">سمت غربي جنوبي</text>
+<text x="254.8" y="430.6" font-size="12" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">دائرة ارتفاع</text>
+<line x1="380.0" y1="380.0" x2="120.2" y2="230.0" stroke="#b0301f" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<circle cx="218.9" cy="287.0" r="4.5" fill="#2b1d12"/>
+<path d="M68.0,380.0 A312.0,312.0 0 0 1 109.8,224.0" stroke="#2e6b3a" stroke-width="3" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="148.2" y="317.9" font-size="14" fill="#2e6b3a" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">سمت غربي شمالي</text>
+<text x="273.6" y="296.9" font-size="12" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">دائرة ارتفاع</text>
+<text x="380.0" y="732.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">السمت: قوس من الأفق بين نقطة المشرق أو المغرب ودائرة الارتفاع، وتمامه إلى نقطة الشمال أو الجنوب</text></svg>

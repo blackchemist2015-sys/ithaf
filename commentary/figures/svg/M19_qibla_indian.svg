@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="720" viewBox="0 0 760 720" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="340.0" r="270.0" stroke="#b0301f" stroke-width="2" fill="none"/>
+<line x1="110.0" y1="340.0" x2="650.0" y2="340.0" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="380.0" y1="70.0" x2="380.0" y2="610.0" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<text x="380.0" y="54.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">جنوب</text>
+<text x="380.0" y="632.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">شمال</text>
+<text x="100.0" y="340.0" font-size="15" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">مشرق</text>
+<text x="660.0" y="340.0" font-size="15" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">مغرب</text>
+<line x1="224.2" y1="119.5" x2="224.2" y2="560.5" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<text x="218.2" y="105.5" font-size="16" fill="#b0301f" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">له ر</text>
+<text x="218.2" y="578.5" font-size="16" fill="#b0301f" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">له ر</text>
+<line x1="119.2" y1="270.1" x2="640.8" y2="270.1" stroke="#b0301f" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<text x="105.2" y="270.1" font-size="16" fill="#b0301f" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">يه</text>
+<text x="654.8" y="270.1" font-size="16" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">يه</text>
+<line x1="380.0" y1="340.0" x2="133.6" y2="229.5" stroke="#2e6b3a" stroke-width="3" opacity="1" stroke-linecap="round"/>
+<circle cx="224.2" cy="270.1" r="5" fill="#2e6b3a"/>
+<text x="121.6" y="213.5" font-size="15" fill="#2e6b3a" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">سمت القبلة بتونس</text>
+<text x="380.0" y="665.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">له ر = فضل ما بين الطولين ٣٥ درجة وربع ، يه = فضل ما بين العرضين ١٥ درجة</text>
+<text x="380.0" y="692.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">يخرج القوس بين خط القبلة ونقطة المشرق نحو ٢٤ درجة في هذه الطريقة المسطحة التقريبية</text></svg>

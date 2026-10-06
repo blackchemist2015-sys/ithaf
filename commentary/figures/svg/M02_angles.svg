@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><line x1="30.0" y1="210.0" x2="870.0" y2="210.0" stroke="#b0301f" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<line x1="70.0" y1="210.0" x2="70.0" y2="60.0" stroke="#b0301f" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<path d="M70,60 Q150,150 160,210" stroke="#b0301f" stroke-width="1.8" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="110.0" y="236.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">مستقيم ومنحنٍ</text>
+<path d="M200,210 Q200,60 260,60 Q300,150 290,210" stroke="#b0301f" stroke-width="1.8" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="260.0" y="236.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">محدّب ومقعّر</text>
+<path d="M340,210 Q410,170 420,60 Q430,170 500,210" stroke="#b0301f" stroke-width="1.8" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="420.0" y="236.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">مقعّران</text>
+<path d="M540,110 Q590,10 640,110 Q590,210 540,110" stroke="#b0301f" stroke-width="1.8" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="590.0" y="236.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">محدّبان</text>
+<path d="M690,210 A90,90 0 0 1 830,90 A70,70 0 0 0 750,210" stroke="#b0301f" stroke-width="1.8" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="760.0" y="236.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">هلالية</text>
+<text x="450.0" y="30.0" font-size="17" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">زوايا مسطحة يحيط بها خطّان غير مستقيمين</text></svg>
