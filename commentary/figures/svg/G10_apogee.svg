@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="280.0" r="4.0" stroke="#2b1d12" stroke-width="1" fill="#2b1d12"/>
+<text x="370.0" y="298.0" font-size="14" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">مركز العالم (الأرض)</text>
+<circle cx="440.0" cy="280.0" r="200.0" stroke="#b0301f" stroke-width="2" fill="none"/>
+<circle cx="440.0" cy="280.0" r="4" fill="#b0301f"/>
+<text x="450.0" y="298.0" font-size="14" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle">مركز الخارج</text>
+<line x1="210.0" y1="280.0" x2="670.0" y2="280.0" stroke="#2b1d12" stroke-width="1" stroke-dasharray="5,4" opacity="1" stroke-linecap="round"/>
+<circle cx="640.0" cy="280.0" r="6" fill="#8a6d1c"/>
+<text x="650.0" y="262.0" font-size="15" fill="#8a6d1c" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">الأوج (أبعد بُعد)</text>
+<circle cx="240.0" cy="280.0" r="6" fill="#1f4e79"/>
+<text x="230.0" y="262.0" font-size="15" fill="#1f4e79" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">الحضيض (أقرب قرب)</text>
+<text x="440.0" y="60.0" font-size="15" fill="#8a6d1c" text-anchor="middle" direction="rtl" dominant-baseline="middle">النصف الأوجي</text>
+<text x="440.0" y="506.0" font-size="15" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle">النصف الحضيضي</text>
+<path d="M440,80 A200,200 0 0 1 440,480" stroke="#8a6d1c" stroke-width="4" fill="none" opacity="0.6"/>
+<path d="M440,480 A200,200 0 0 1 440,80" stroke="#1f4e79" stroke-width="4" fill="none" opacity="0.6"/>
+<text x="380.0" y="540.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الفلك الخارج المركز: يبطؤ سير الكوكب المرئي عند الأوج ويسرع عند الحضيض</text></svg>

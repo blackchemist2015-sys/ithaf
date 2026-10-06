@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="600" viewBox="0 0 780 600" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><path d="M140.0,330.0 A250.0,250.0 0 0 1 640.0,330.0" stroke="#2b1d12" stroke-width="2" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M140.0,330.0 A250.0,70.0 0 0 0 640.0,330.0" stroke="#2b1d12" stroke-width="2.2" fill="none" transform="rotate(0 390.0 330.0)"/>
+<path d="M140.0,330.0 A250.0,70.0 0 0 1 640.0,330.0" stroke="#2b1d12" stroke-width="1.4" fill="none" stroke-dasharray="5,4" transform="rotate(0 390.0 330.0)"/>
+<text x="170.0" y="410.0" font-size="15" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">دائرة الأفق</text>
+<circle cx="390.0" cy="80.0" r="5" fill="#2b1d12"/>
+<text x="390.0" y="62.0" font-size="16" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">سمت الرأس</text>
+<line x1="390.0" y1="330.0" x2="390.0" y2="80.0" stroke="#999999" stroke-width="1" stroke-dasharray="4,3" opacity="1" stroke-linecap="round"/>
+<circle cx="390.0" cy="330.0" r="4" fill="#2b1d12"/>
+<path d="M390,80 Q560,180 565,370" stroke="#2e6b3a" stroke-width="1.6" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="600.0" y="210.0" font-size="14" fill="#2e6b3a" text-anchor="end" direction="rtl" dominant-baseline="middle">دائرة الارتفاع</text>
+<circle cx="510.0" cy="170.0" r="7" fill="#8a6d1c"/>
+<text x="498.0" y="156.0" font-size="15" fill="#8a6d1c" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">الكوكب</text>
+<path d="M510,170 Q568,280 565,370" stroke="#b0301f" stroke-width="4" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="590.0" y="250.0" font-size="16" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">الارتفاع</text>
+<path d="M390,80 Q430,100 510,170" stroke="#6b2d6b" stroke-width="3" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="430.0" y="85.0" font-size="15" fill="#6b2d6b" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">تمام الارتفاع</text>
+<circle cx="640.0" cy="330.0" r="5" fill="#2b1d12"/>
+<text x="650.0" y="330.0" font-size="15" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">المشرق</text>
+<circle cx="140.0" cy="330.0" r="5" fill="#2b1d12"/>
+<text x="130.0" y="330.0" font-size="15" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">المغرب</text>
+<circle cx="390.0" cy="400.0" r="5" fill="#2b1d12"/>
+<text x="390.0" y="422.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">الجنوب</text>
+<circle cx="390.0" cy="260.0" r="4" fill="#2b1d12"/>
+<text x="380.0" y="246.0" font-size="14" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">الشمال</text>
+<path d="M640.0,330.0 A250,70 0 0 1 565.0,370.0" stroke="#1f4e79" stroke-width="4" fill="none"/>
+<text x="640.0" y="390.0" font-size="16" fill="#1f4e79" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">السمت</text>
+<text x="390.0" y="470.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الإحداثيات الأفقية: الارتفاع على دائرة الارتفاع، والسمت على الأفق من نقطة المشرق أو المغرب</text></svg>

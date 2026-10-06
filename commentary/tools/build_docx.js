@@ -87,7 +87,8 @@ function table(lines) {
         spacing: { after: 0, line: 300 }, children: runs(c, { size: 26, bold: i === 0 }) })] })) })) });
 }
 
-const src = fs.readFileSync(path.join(ROOT, 'content.txt'), 'utf8').split('\n');
+const SRC = process.argv[3] || path.join(ROOT, 'content.txt');
+const src = fs.readFileSync(SRC, 'utf8').split('\n');
 const children = [];
 let i = 0;
 while (i < src.length) {

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="620" viewBox="0 0 760 620" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="380.0" cy="300.0" r="230.0" stroke="#2b1d12" stroke-width="2" fill="none"/>
+<line x1="380.0" y1="30.0" x2="380.0" y2="570.0" stroke="#b0301f" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<circle cx="380.0" cy="70.0" r="5" fill="#b0301f"/>
+<circle cx="380.0" cy="530.0" r="5" fill="#b0301f"/>
+<text x="392.0" y="48.0" font-size="16" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">القطب</text>
+<text x="392.0" y="554.0" font-size="16" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">القطب</text>
+<text x="392.0" y="180.0" font-size="15" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle">المحور</text>
+<path d="M150.0,300.0 A230.0,55.0 0 0 0 610.0,300.0" stroke="#1f4e79" stroke-width="2.4" fill="none" transform="rotate(0 380.0 300.0)"/>
+<path d="M150.0,300.0 A230.0,55.0 0 0 1 610.0,300.0" stroke="#1f4e79" stroke-width="2" fill="none" stroke-dasharray="5,4" transform="rotate(0 380.0 300.0)"/>
+<text x="550.0" y="370.0" font-size="15" fill="#1f4e79" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">المنطقة (دائرة عظيمة)</text>
+<path d="M174.6,196.5 A205.4,49.1 0 0 0 585.4,196.5" stroke="#2e6b3a" stroke-width="1.6" fill="none" transform="rotate(0 380.0 196.5)"/>
+<path d="M174.6,196.5 A205.4,49.1 0 0 1 585.4,196.5" stroke="#2e6b3a" stroke-width="1.2" fill="none" stroke-dasharray="5,4" transform="rotate(0 380.0 196.5)"/>
+<path d="M242.0,116.0 A138.0,33.0 0 0 0 518.0,116.0" stroke="#2e6b3a" stroke-width="1.6" fill="none" transform="rotate(0 380.0 116.0)"/>
+<path d="M242.0,116.0 A138.0,33.0 0 0 1 518.0,116.0" stroke="#2e6b3a" stroke-width="1.2" fill="none" stroke-dasharray="5,4" transform="rotate(0 380.0 116.0)"/>
+<text x="235.0" y="157.4" font-size="15" fill="#2e6b3a" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">دوائر صغار متوازية</text>
+<ellipse cx="380.0" cy="300.0" rx="230.0" ry="70.0" stroke="#8a6d1c" stroke-width="1.8" fill="none" transform="rotate(-50 380.0 300.0)"/>
+<text x="530.0" y="475.0" font-size="15" fill="#8a6d1c" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">دائرة عظيمة مائلة</text>
+<circle cx="380.0" cy="300.0" r="4" fill="#2b1d12"/>
+<text x="370.0" y="318.0" font-size="14" fill="#2b1d12" text-anchor="start" direction="rtl" dominant-baseline="middle">المركز</text>
+<text x="380.0" y="596.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">العظيمة تنصّف الكرة ومركزها مركز الكرة، والصغيرة لا تنصفها</text></svg>

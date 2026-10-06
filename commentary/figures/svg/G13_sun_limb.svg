@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><line x1="40.0" y1="360.0" x2="720.0" y2="360.0" stroke="#2b1d12" stroke-width="2" opacity="1" stroke-linecap="round"/>
+<text x="60.0" y="380.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle">الأفق</text>
+<circle cx="560.0" cy="150.0" r="46.0" stroke="#8a6d1c" stroke-width="2" fill="#f7e2a0"/>
+<line x1="120.0" y1="350.0" x2="560.0" y2="104.0" stroke="#b0301f" stroke-width="1.4" stroke-dasharray="6,3" opacity="1" stroke-linecap="round"/>
+<circle cx="560.0" cy="104.0" r="4" fill="#b0301f"/>
+<text x="620.0" y="104.0" font-size="14" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">حاجب الشمس (الحرف الأعلى)</text>
+<line x1="120.0" y1="350.0" x2="560.0" y2="150.0" stroke="#2b1d12" stroke-width="1.4" stroke-dasharray="6,3" opacity="1" stroke-linecap="round"/>
+<circle cx="560.0" cy="150.0" r="4" fill="#2b1d12"/>
+<text x="620.0" y="150.0" font-size="14" fill="#2b1d12" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">مركز الشمس</text>
+<line x1="120.0" y1="350.0" x2="560.0" y2="196.0" stroke="#1f4e79" stroke-width="1.4" stroke-dasharray="6,3" opacity="1" stroke-linecap="round"/>
+<circle cx="560.0" cy="196.0" r="4" fill="#1f4e79"/>
+<text x="620.0" y="196.0" font-size="14" fill="#1f4e79" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">الحرف الأسفل</text>
+<circle cx="120.0" cy="350.0" r="5" fill="#2b1d12"/>
+<text x="120.0" y="382.0" font-size="14" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الراصد</text>
+<text x="380.0" y="400.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">بين ارتفاع الحاجب وارتفاع المركز نصف قطر الشمس (نحو ربع درجة)</text></svg>

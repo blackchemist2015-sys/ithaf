@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="620" viewBox="0 0 820 620" font-family="Amiri, serif"><rect width="100%" height="100%" fill="#ffffff"/><circle cx="410.0" cy="310.0" r="240.0" stroke="#2b1d12" stroke-width="2" fill="none"/>
+<path d="M170.0,310.0 A240.0,60.0 0 0 0 650.0,310.0" stroke="#b0301f" stroke-width="2.6" fill="none" transform="rotate(0 410.0 310.0)"/>
+<path d="M170.0,310.0 A240.0,60.0 0 0 1 650.0,310.0" stroke="#b0301f" stroke-width="1.4" fill="none" stroke-dasharray="5,4" transform="rotate(0 410.0 310.0)"/>
+<text x="180.0" y="390.0" font-size="15" fill="#b0301f" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">منطقة البروج</text>
+<ellipse cx="410.0" cy="310.0" rx="240.0" ry="60.0" stroke="#1f4e79" stroke-width="1.8" fill="none" transform="rotate(23.5 410.0 310.0)"/>
+<text x="530.0" y="450.0" font-size="15" fill="#1f4e79" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">معدل النهار</text>
+<circle cx="410.0" cy="70.0" r="5" fill="#b0301f"/>
+<text x="410.0" y="52.0" font-size="15" fill="#b0301f" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">قطب البروج</text>
+<circle cx="314.3" cy="89.9" r="5" fill="#1f4e79"/>
+<text x="304.3" y="75.9" font-size="15" fill="#1f4e79" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">قطب المعدل</text>
+<circle cx="172.0" cy="310.0" r="5" fill="#8a6d1c"/>
+<text x="164.0" y="296.0" font-size="14" fill="#8a6d1c" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">رأس الحمل</text>
+<path d="M410,70 Q530,190 505,368" stroke="#2e6b3a" stroke-width="1.6" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="550.0" y="250.0" font-size="14" fill="#2e6b3a" text-anchor="end" direction="rtl" dominant-baseline="middle">دائرة العرض</text>
+<circle cx="480.0" cy="170.0" r="7" fill="#8a6d1c"/>
+<text x="468.0" y="160.0" font-size="15" fill="#8a6d1c" text-anchor="start" direction="rtl" dominant-baseline="middle" font-weight="700">الكوكب</text>
+<path d="M480,170 Q510,280 505,368" stroke="#6b2d6b" stroke-width="4" fill="none" opacity="1" stroke-linejoin="round"/>
+<text x="520.0" y="250.0" font-size="15" fill="#6b2d6b" text-anchor="end" direction="rtl" dominant-baseline="middle" font-weight="700">العرض</text>
+<path d="M172.0,310.0 A240,60 0 0 0 505.0,368.0" stroke="#b0301f" stroke-width="5" fill="none"/>
+<text x="330.0" y="410.0" font-size="15" fill="#b0301f" text-anchor="middle" direction="rtl" dominant-baseline="middle" font-weight="700">الطول (الدرجة) من أول الحمل</text>
+<text x="410.0" y="610.0" font-size="15" fill="#2b1d12" text-anchor="middle" direction="rtl" dominant-baseline="middle">الإحداثيات البروجية: الطول على منطقة البروج، والعرض على دائرة العرض المارة بقطبي البروج</text></svg>
