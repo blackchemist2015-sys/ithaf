@@ -4,6 +4,7 @@ from sheet_a import A, T_BLADE
 from sheet_b import B, HOURS_B, date_ticks
 from sheet_c import C
 from dials import *
+from math import hypot
 
 OUT = '../setting_out'
 os.makedirs(OUT, exist_ok=True)
@@ -52,3 +53,21 @@ for dec, names, dates, lam, segs in C.signs:
 rows += [('asr', 'shafii k=1', C.asr1), ('meridian', 'true noon', C.meridian)]
 write('C_eye_of_the_sun.csv', rows)
 print(os.listdir(OUT))
+
+# التصميم (د): إحداثيات على مستوى القرص (e شرقًا، v في المستوى نحو الشمال والأسفل) من مركزه
+from dials import DesignD
+Dd = DesignD()
+rows = []
+for summer, face in ((True, 'summer'), (False, 'winter')):
+    for q in frange(-120, 120, 3.75):
+        H = q + Dd.corr
+        rows.append((f'{face}_hour_ray', f'T={12 + q/15:.2f} EET-mean H={H:+.3f}deg', [[(0.10*sin(rad(H)), 0.10*cos(rad(H))), ((Dd.Rd - 0.13)*sin(rad(H)), (Dd.Rd - 0.13)*cos(rad(H)))]]))
+    for dec, names, dates, lam in sign_curves():
+        if abs(dec) < 0.1 or (dec > 0) != summer: continue
+        r = Dd.g/tan(rad(abs(dec)))
+        if r < Dd.Rd - 0.13:
+            rows.append((f'{face}_declination_circle', f'dec={dec:+.3f} r={r:.4f}', [[(r*sin(rad(t)), r*cos(rad(t))) for t in range(0, 361, 2)]]))
+    pts = [Dd.face_point(d, asr_H(d), summer) for d in frange(-23.44, 23.44, 0.2)]
+    rows.append((f'{face}_asr', 'shafii k=1', [[p for p in pts if p and hypot(*p) < Dd.Rd - 0.13]]))
+write('D_ibn_al_sufi_equatorial.csv', [r for r in rows if r[2] and r[2][0]])
+print('D ok')

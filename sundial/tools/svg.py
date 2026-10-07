@@ -1,6 +1,6 @@
 """أدوات بسيطة لكتابة لوحات SVG بالمليمتر (A1 أفقي افتراضيًا)."""
 from math import cos, sin, radians as rad, atan2, degrees as deg
-import html
+import html, re
 
 INK = '#1d1b19'; GOLD = '#b8862b'; TERRA = '#b4532a'; TEAL = '#1f7a74'; BLUE = '#2f5d8a'; GREY = '#8a847c'
 LIGHT = '#e9e3d6'; RED = '#c0392b'; PURPLE = '#6b4c8a'
@@ -52,7 +52,8 @@ class Sheet:
         t = f' transform="rotate({f(rot)} {f(x)} {f(y)})"' if rot else ''
         o = f' opacity="{op}"' if op is not None else ''
         l = f' letter-spacing="{ls}"' if ls else ''
-        anchor = {'start': 'end', 'end': 'start'}.get(anchor, anchor)   # المرسى فيزيائي: start يسار وend يمين
+        anchor = {'start': 'end', 'end': 'start'}.get(anchor, anchor)
+        s = re.sub(r'(\d+;\d+|\d+;—)', '\u2066\\1\u2069', str(s))   # الأعداد الستينية تبقى من اليسار
         self.add(f'<text x="{f(x)}" y="{f(y)}" font-size="{f(size)}" text-anchor="{anchor}" dominant-baseline="{base}" '
                  f'font-family="{font}" font-weight="{weight}" fill="{fill}" direction="rtl"{t}{o}{l}>{html.escape(str(s))}</text>')
 

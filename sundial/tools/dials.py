@@ -146,3 +146,38 @@ class DesignC:
         self.analemmas = {T: clock_analemma(self.nodus, T, R) for T in frange(8, 16, 0.5)}
         self.asr1 = asr_curve(self.nodus, 1, R)
         self.meridian = hour_line(self.nodus, 0.0, R)
+
+
+# ---------------------------------------------------------------- التصميم (د): رخامة ابن الصوفي (الموازية لمعدل النهار)
+class DesignD:
+    """مزولة استوائية: قرص موازٍ لدائرة معدل النهار يخترقه محور قطبي؛ وجه صيفي يعلو نحو الشمال ووجه شتوي تحته."""
+    Rd = 1.80          # نصف قطر القرص
+    zc = 2.00          # ارتفاع مركز القرص
+    g = 0.35           # بعد عقدة المحور (الخرزة) عن كل وجه
+    rod = 1.00         # امتداد المحور خارج كل وجه
+
+    def __init__(self):
+        p = rad(LAT)
+        self.u = (0.0, cos(p), sin(p))          # المحور القطبي
+        self.e = (1.0, 0.0, 0.0)
+        self.v = (0.0, sin(p), -cos(p))         # في المستوى: نحو الشمال والأسفل
+        self.corr = LON - ZONE_MERIDIAN
+
+    def face_point(self, dec, H, summer=True):
+        """موضع ظل الخرزة على الوجه بإحداثيي (e, v) من المركز، أو None."""
+        E, N, U = sunvec(dec, H)
+        s = (E, N, U)
+        su = sum(a*b for a, b in zip(s, self.u))
+        n = 1 if summer else -1
+        t = self.g*n/su if abs(su) > 1e-9 else -1
+        if t <= 0 or U <= 0.02: return None
+        P = [self.g*n*self.u[i] - t*s[i] for i in range(3)]
+        return (sum(P[i]*self.e[i] for i in range(3)), sum(P[i]*self.v[i] for i in range(3)))
+
+    def screen(self, pe, pv, summer=True):
+        """إحداثيات الرسم كما يراها الواقف أمام الوجه: الصيفي من الشمال، والشتوي من الجنوب؛ وأعلى الرسم = أعلى القرص."""
+        return ((-pe if summer else pe), -pv)
+
+    def world(self, pe, pv, offset=0.0):
+        c = (0.0, 0.0, self.zc)
+        return tuple(c[i] + pe*self.e[i] + pv*self.v[i] + offset*self.u[i] for i in range(3))
