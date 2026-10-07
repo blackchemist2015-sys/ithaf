@@ -1,0 +1,656 @@
+﻿element,label,segment,point,x_east_m,y_north_m
+summer_hour_ray,T=4.00 EET-mean H=-118.756deg,0,0,-0.0877,-0.0481
+summer_hour_ray,T=4.00 EET-mean H=-118.756deg,0,1,-1.4641,-0.8034
+summer_hour_ray,T=4.25 EET-mean H=-115.006deg,0,0,-0.0906,-0.0423
+summer_hour_ray,T=4.25 EET-mean H=-115.006deg,0,1,-1.5135,-0.7059
+summer_hour_ray,T=4.50 EET-mean H=-111.256deg,0,0,-0.0932,-0.0363
+summer_hour_ray,T=4.50 EET-mean H=-111.256deg,0,1,-1.5564,-0.6054
+summer_hour_ray,T=4.75 EET-mean H=-107.506deg,0,0,-0.0954,-0.0301
+summer_hour_ray,T=4.75 EET-mean H=-107.506deg,0,1,-1.5927,-0.5023
+summer_hour_ray,T=5.00 EET-mean H=-103.756deg,0,0,-0.0971,-0.0238
+summer_hour_ray,T=5.00 EET-mean H=-103.756deg,0,1,-1.6221,-0.3971
+summer_hour_ray,T=5.25 EET-mean H=-100.006deg,0,0,-0.0985,-0.0174
+summer_hour_ray,T=5.25 EET-mean H=-100.006deg,0,1,-1.6446,-0.2902
+summer_hour_ray,T=5.50 EET-mean H=-96.256deg,0,0,-0.0994,-0.0109
+summer_hour_ray,T=5.50 EET-mean H=-96.256deg,0,1,-1.6601,-0.1820
+summer_hour_ray,T=5.75 EET-mean H=-92.506deg,0,0,-0.0999,-0.0044
+summer_hour_ray,T=5.75 EET-mean H=-92.506deg,0,1,-1.6684,-0.0730
+summer_hour_ray,T=6.00 EET-mean H=-88.756deg,0,0,-0.1000,0.0022
+summer_hour_ray,T=6.00 EET-mean H=-88.756deg,0,1,-1.6696,0.0363
+summer_hour_ray,T=6.25 EET-mean H=-85.006deg,0,0,-0.0996,0.0087
+summer_hour_ray,T=6.25 EET-mean H=-85.006deg,0,1,-1.6637,0.1454
+summer_hour_ray,T=6.50 EET-mean H=-81.256deg,0,0,-0.0988,0.0152
+summer_hour_ray,T=6.50 EET-mean H=-81.256deg,0,1,-1.6506,0.2539
+summer_hour_ray,T=6.75 EET-mean H=-77.506deg,0,0,-0.0976,0.0216
+summer_hour_ray,T=6.75 EET-mean H=-77.506deg,0,1,-1.6305,0.3613
+summer_hour_ray,T=7.00 EET-mean H=-73.756deg,0,0,-0.0960,0.0280
+summer_hour_ray,T=7.00 EET-mean H=-73.756deg,0,1,-1.6033,0.4672
+summer_hour_ray,T=7.25 EET-mean H=-70.006deg,0,0,-0.0940,0.0342
+summer_hour_ray,T=7.25 EET-mean H=-70.006deg,0,1,-1.5693,0.5710
+summer_hour_ray,T=7.50 EET-mean H=-66.256deg,0,0,-0.0915,0.0403
+summer_hour_ray,T=7.50 EET-mean H=-66.256deg,0,1,-1.5286,0.6724
+summer_hour_ray,T=7.75 EET-mean H=-62.506deg,0,0,-0.0887,0.0462
+summer_hour_ray,T=7.75 EET-mean H=-62.506deg,0,1,-1.4814,0.7710
+summer_hour_ray,T=8.00 EET-mean H=-58.756deg,0,0,-0.0855,0.0519
+summer_hour_ray,T=8.00 EET-mean H=-58.756deg,0,1,-1.4278,0.8662
+summer_hour_ray,T=8.25 EET-mean H=-55.006deg,0,0,-0.0819,0.0573
+summer_hour_ray,T=8.25 EET-mean H=-55.006deg,0,1,-1.3681,0.9577
+summer_hour_ray,T=8.50 EET-mean H=-51.256deg,0,0,-0.0780,0.0626
+summer_hour_ray,T=8.50 EET-mean H=-51.256deg,0,1,-1.3025,1.0452
+summer_hour_ray,T=8.75 EET-mean H=-47.506deg,0,0,-0.0737,0.0676
+summer_hour_ray,T=8.75 EET-mean H=-47.506deg,0,1,-1.2314,1.1281
+summer_hour_ray,T=9.00 EET-mean H=-43.756deg,0,0,-0.0692,0.0722
+summer_hour_ray,T=9.00 EET-mean H=-43.756deg,0,1,-1.1549,1.2062
+summer_hour_ray,T=9.25 EET-mean H=-40.006deg,0,0,-0.0643,0.0766
+summer_hour_ray,T=9.25 EET-mean H=-40.006deg,0,1,-1.0736,1.2792
+summer_hour_ray,T=9.50 EET-mean H=-36.256deg,0,0,-0.0591,0.0806
+summer_hour_ray,T=9.50 EET-mean H=-36.256deg,0,1,-0.9876,1.3467
+summer_hour_ray,T=9.75 EET-mean H=-32.506deg,0,0,-0.0537,0.0843
+summer_hour_ray,T=9.75 EET-mean H=-32.506deg,0,1,-0.8974,1.4084
+summer_hour_ray,T=10.00 EET-mean H=-28.756deg,0,0,-0.0481,0.0877
+summer_hour_ray,T=10.00 EET-mean H=-28.756deg,0,1,-0.8034,1.4641
+summer_hour_ray,T=10.25 EET-mean H=-25.006deg,0,0,-0.0423,0.0906
+summer_hour_ray,T=10.25 EET-mean H=-25.006deg,0,1,-0.7059,1.5135
+summer_hour_ray,T=10.50 EET-mean H=-21.256deg,0,0,-0.0363,0.0932
+summer_hour_ray,T=10.50 EET-mean H=-21.256deg,0,1,-0.6054,1.5564
+summer_hour_ray,T=10.75 EET-mean H=-17.506deg,0,0,-0.0301,0.0954
+summer_hour_ray,T=10.75 EET-mean H=-17.506deg,0,1,-0.5023,1.5927
+summer_hour_ray,T=11.00 EET-mean H=-13.756deg,0,0,-0.0238,0.0971
+summer_hour_ray,T=11.00 EET-mean H=-13.756deg,0,1,-0.3971,1.6221
+summer_hour_ray,T=11.25 EET-mean H=-10.006deg,0,0,-0.0174,0.0985
+summer_hour_ray,T=11.25 EET-mean H=-10.006deg,0,1,-0.2902,1.6446
+summer_hour_ray,T=11.50 EET-mean H=-6.256deg,0,0,-0.0109,0.0994
+summer_hour_ray,T=11.50 EET-mean H=-6.256deg,0,1,-0.1820,1.6601
+summer_hour_ray,T=11.75 EET-mean H=-2.506deg,0,0,-0.0044,0.0999
+summer_hour_ray,T=11.75 EET-mean H=-2.506deg,0,1,-0.0730,1.6684
+summer_hour_ray,T=12.00 EET-mean H=+1.244deg,0,0,0.0022,0.1000
+summer_hour_ray,T=12.00 EET-mean H=+1.244deg,0,1,0.0363,1.6696
+summer_hour_ray,T=12.25 EET-mean H=+4.994deg,0,0,0.0087,0.0996
+summer_hour_ray,T=12.25 EET-mean H=+4.994deg,0,1,0.1454,1.6637
+summer_hour_ray,T=12.50 EET-mean H=+8.744deg,0,0,0.0152,0.0988
+summer_hour_ray,T=12.50 EET-mean H=+8.744deg,0,1,0.2539,1.6506
+summer_hour_ray,T=12.75 EET-mean H=+12.494deg,0,0,0.0216,0.0976
+summer_hour_ray,T=12.75 EET-mean H=+12.494deg,0,1,0.3613,1.6305
+summer_hour_ray,T=13.00 EET-mean H=+16.244deg,0,0,0.0280,0.0960
+summer_hour_ray,T=13.00 EET-mean H=+16.244deg,0,1,0.4672,1.6033
+summer_hour_ray,T=13.25 EET-mean H=+19.994deg,0,0,0.0342,0.0940
+summer_hour_ray,T=13.25 EET-mean H=+19.994deg,0,1,0.5710,1.5693
+summer_hour_ray,T=13.50 EET-mean H=+23.744deg,0,0,0.0403,0.0915
+summer_hour_ray,T=13.50 EET-mean H=+23.744deg,0,1,0.6724,1.5286
+summer_hour_ray,T=13.75 EET-mean H=+27.494deg,0,0,0.0462,0.0887
+summer_hour_ray,T=13.75 EET-mean H=+27.494deg,0,1,0.7710,1.4814
+summer_hour_ray,T=14.00 EET-mean H=+31.244deg,0,0,0.0519,0.0855
+summer_hour_ray,T=14.00 EET-mean H=+31.244deg,0,1,0.8662,1.4278
+summer_hour_ray,T=14.25 EET-mean H=+34.994deg,0,0,0.0573,0.0819
+summer_hour_ray,T=14.25 EET-mean H=+34.994deg,0,1,0.9577,1.3681
+summer_hour_ray,T=14.50 EET-mean H=+38.744deg,0,0,0.0626,0.0780
+summer_hour_ray,T=14.50 EET-mean H=+38.744deg,0,1,1.0452,1.3025
+summer_hour_ray,T=14.75 EET-mean H=+42.494deg,0,0,0.0676,0.0737
+summer_hour_ray,T=14.75 EET-mean H=+42.494deg,0,1,1.1281,1.2314
+summer_hour_ray,T=15.00 EET-mean H=+46.244deg,0,0,0.0722,0.0692
+summer_hour_ray,T=15.00 EET-mean H=+46.244deg,0,1,1.2062,1.1549
+summer_hour_ray,T=15.25 EET-mean H=+49.994deg,0,0,0.0766,0.0643
+summer_hour_ray,T=15.25 EET-mean H=+49.994deg,0,1,1.2792,1.0736
+summer_hour_ray,T=15.50 EET-mean H=+53.744deg,0,0,0.0806,0.0591
+summer_hour_ray,T=15.50 EET-mean H=+53.744deg,0,1,1.3467,0.9876
+summer_hour_ray,T=15.75 EET-mean H=+57.494deg,0,0,0.0843,0.0537
+summer_hour_ray,T=15.75 EET-mean H=+57.494deg,0,1,1.4084,0.8974
+summer_hour_ray,T=16.00 EET-mean H=+61.244deg,0,0,0.0877,0.0481
+summer_hour_ray,T=16.00 EET-mean H=+61.244deg,0,1,1.4641,0.8034
+summer_hour_ray,T=16.25 EET-mean H=+64.994deg,0,0,0.0906,0.0423
+summer_hour_ray,T=16.25 EET-mean H=+64.994deg,0,1,1.5135,0.7059
+summer_hour_ray,T=16.50 EET-mean H=+68.744deg,0,0,0.0932,0.0363
+summer_hour_ray,T=16.50 EET-mean H=+68.744deg,0,1,1.5564,0.6054
+summer_hour_ray,T=16.75 EET-mean H=+72.494deg,0,0,0.0954,0.0301
+summer_hour_ray,T=16.75 EET-mean H=+72.494deg,0,1,1.5927,0.5023
+summer_hour_ray,T=17.00 EET-mean H=+76.244deg,0,0,0.0971,0.0238
+summer_hour_ray,T=17.00 EET-mean H=+76.244deg,0,1,1.6221,0.3971
+summer_hour_ray,T=17.25 EET-mean H=+79.994deg,0,0,0.0985,0.0174
+summer_hour_ray,T=17.25 EET-mean H=+79.994deg,0,1,1.6446,0.2902
+summer_hour_ray,T=17.50 EET-mean H=+83.744deg,0,0,0.0994,0.0109
+summer_hour_ray,T=17.50 EET-mean H=+83.744deg,0,1,1.6601,0.1820
+summer_hour_ray,T=17.75 EET-mean H=+87.494deg,0,0,0.0999,0.0044
+summer_hour_ray,T=17.75 EET-mean H=+87.494deg,0,1,1.6684,0.0730
+summer_hour_ray,T=18.00 EET-mean H=+91.244deg,0,0,0.1000,-0.0022
+summer_hour_ray,T=18.00 EET-mean H=+91.244deg,0,1,1.6696,-0.0363
+summer_hour_ray,T=18.25 EET-mean H=+94.994deg,0,0,0.0996,-0.0087
+summer_hour_ray,T=18.25 EET-mean H=+94.994deg,0,1,1.6637,-0.1454
+summer_hour_ray,T=18.50 EET-mean H=+98.744deg,0,0,0.0988,-0.0152
+summer_hour_ray,T=18.50 EET-mean H=+98.744deg,0,1,1.6506,-0.2539
+summer_hour_ray,T=18.75 EET-mean H=+102.494deg,0,0,0.0976,-0.0216
+summer_hour_ray,T=18.75 EET-mean H=+102.494deg,0,1,1.6305,-0.3613
+summer_hour_ray,T=19.00 EET-mean H=+106.244deg,0,0,0.0960,-0.0280
+summer_hour_ray,T=19.00 EET-mean H=+106.244deg,0,1,1.6033,-0.4672
+summer_hour_ray,T=19.25 EET-mean H=+109.994deg,0,0,0.0940,-0.0342
+summer_hour_ray,T=19.25 EET-mean H=+109.994deg,0,1,1.5693,-0.5710
+summer_hour_ray,T=19.50 EET-mean H=+113.744deg,0,0,0.0915,-0.0403
+summer_hour_ray,T=19.50 EET-mean H=+113.744deg,0,1,1.5286,-0.6724
+summer_hour_ray,T=19.75 EET-mean H=+117.494deg,0,0,0.0887,-0.0462
+summer_hour_ray,T=19.75 EET-mean H=+117.494deg,0,1,1.4814,-0.7710
+summer_hour_ray,T=20.00 EET-mean H=+121.244deg,0,0,0.0855,-0.0519
+summer_hour_ray,T=20.00 EET-mean H=+121.244deg,0,1,1.4278,-0.8662
+summer_declination_circle,dec=+20.148 r=0.9540,0,0,0.0000,0.9540
+summer_declination_circle,dec=+20.148 r=0.9540,0,1,0.0665,0.9516
+summer_declination_circle,dec=+20.148 r=0.9540,0,2,0.1328,0.9447
+summer_declination_circle,dec=+20.148 r=0.9540,0,3,0.1983,0.9331
+summer_declination_circle,dec=+20.148 r=0.9540,0,4,0.2629,0.9170
+summer_declination_circle,dec=+20.148 r=0.9540,0,5,0.3263,0.8964
+summer_declination_circle,dec=+20.148 r=0.9540,0,6,0.3880,0.8715
+summer_declination_circle,dec=+20.148 r=0.9540,0,7,0.4479,0.8423
+summer_declination_circle,dec=+20.148 r=0.9540,0,8,0.5055,0.8090
+summer_declination_circle,dec=+20.148 r=0.9540,0,9,0.5607,0.7718
+summer_declination_circle,dec=+20.148 r=0.9540,0,10,0.6132,0.7308
+summer_declination_circle,dec=+20.148 r=0.9540,0,11,0.6627,0.6862
+summer_declination_circle,dec=+20.148 r=0.9540,0,12,0.7089,0.6383
+summer_declination_circle,dec=+20.148 r=0.9540,0,13,0.7517,0.5873
+summer_declination_circle,dec=+20.148 r=0.9540,0,14,0.7909,0.5334
+summer_declination_circle,dec=+20.148 r=0.9540,0,15,0.8261,0.4770
+summer_declination_circle,dec=+20.148 r=0.9540,0,16,0.8574,0.4182
+summer_declination_circle,dec=+20.148 r=0.9540,0,17,0.8845,0.3574
+summer_declination_circle,dec=+20.148 r=0.9540,0,18,0.9073,0.2948
+summer_declination_circle,dec=+20.148 r=0.9540,0,19,0.9256,0.2308
+summer_declination_circle,dec=+20.148 r=0.9540,0,20,0.9395,0.1657
+summer_declination_circle,dec=+20.148 r=0.9540,0,21,0.9487,0.0997
+summer_declination_circle,dec=+20.148 r=0.9540,0,22,0.9534,0.0333
+summer_declination_circle,dec=+20.148 r=0.9540,0,23,0.9534,-0.0333
+summer_declination_circle,dec=+20.148 r=0.9540,0,24,0.9487,-0.0997
+summer_declination_circle,dec=+20.148 r=0.9540,0,25,0.9395,-0.1657
+summer_declination_circle,dec=+20.148 r=0.9540,0,26,0.9256,-0.2308
+summer_declination_circle,dec=+20.148 r=0.9540,0,27,0.9073,-0.2948
+summer_declination_circle,dec=+20.148 r=0.9540,0,28,0.8845,-0.3574
+summer_declination_circle,dec=+20.148 r=0.9540,0,29,0.8574,-0.4182
+summer_declination_circle,dec=+20.148 r=0.9540,0,30,0.8261,-0.4770
+summer_declination_circle,dec=+20.148 r=0.9540,0,31,0.7909,-0.5334
+summer_declination_circle,dec=+20.148 r=0.9540,0,32,0.7517,-0.5873
+summer_declination_circle,dec=+20.148 r=0.9540,0,33,0.7089,-0.6383
+summer_declination_circle,dec=+20.148 r=0.9540,0,34,0.6627,-0.6862
+summer_declination_circle,dec=+20.148 r=0.9540,0,35,0.6132,-0.7308
+summer_declination_circle,dec=+20.148 r=0.9540,0,36,0.5607,-0.7718
+summer_declination_circle,dec=+20.148 r=0.9540,0,37,0.5055,-0.8090
+summer_declination_circle,dec=+20.148 r=0.9540,0,38,0.4479,-0.8423
+summer_declination_circle,dec=+20.148 r=0.9540,0,39,0.3880,-0.8715
+summer_declination_circle,dec=+20.148 r=0.9540,0,40,0.3263,-0.8964
+summer_declination_circle,dec=+20.148 r=0.9540,0,41,0.2629,-0.9170
+summer_declination_circle,dec=+20.148 r=0.9540,0,42,0.1983,-0.9331
+summer_declination_circle,dec=+20.148 r=0.9540,0,43,0.1328,-0.9447
+summer_declination_circle,dec=+20.148 r=0.9540,0,44,0.0665,-0.9516
+summer_declination_circle,dec=+20.148 r=0.9540,0,45,0.0000,-0.9540
+summer_declination_circle,dec=+20.148 r=0.9540,0,46,-0.0665,-0.9516
+summer_declination_circle,dec=+20.148 r=0.9540,0,47,-0.1328,-0.9447
+summer_declination_circle,dec=+20.148 r=0.9540,0,48,-0.1983,-0.9331
+summer_declination_circle,dec=+20.148 r=0.9540,0,49,-0.2629,-0.9170
+summer_declination_circle,dec=+20.148 r=0.9540,0,50,-0.3263,-0.8964
+summer_declination_circle,dec=+20.148 r=0.9540,0,51,-0.3880,-0.8715
+summer_declination_circle,dec=+20.148 r=0.9540,0,52,-0.4479,-0.8423
+summer_declination_circle,dec=+20.148 r=0.9540,0,53,-0.5055,-0.8090
+summer_declination_circle,dec=+20.148 r=0.9540,0,54,-0.5607,-0.7718
+summer_declination_circle,dec=+20.148 r=0.9540,0,55,-0.6132,-0.7308
+summer_declination_circle,dec=+20.148 r=0.9540,0,56,-0.6627,-0.6862
+summer_declination_circle,dec=+20.148 r=0.9540,0,57,-0.7089,-0.6383
+summer_declination_circle,dec=+20.148 r=0.9540,0,58,-0.7517,-0.5873
+summer_declination_circle,dec=+20.148 r=0.9540,0,59,-0.7909,-0.5334
+summer_declination_circle,dec=+20.148 r=0.9540,0,60,-0.8261,-0.4770
+summer_declination_circle,dec=+20.148 r=0.9540,0,61,-0.8574,-0.4182
+summer_declination_circle,dec=+20.148 r=0.9540,0,62,-0.8845,-0.3574
+summer_declination_circle,dec=+20.148 r=0.9540,0,63,-0.9073,-0.2948
+summer_declination_circle,dec=+20.148 r=0.9540,0,64,-0.9256,-0.2308
+summer_declination_circle,dec=+20.148 r=0.9540,0,65,-0.9395,-0.1657
+summer_declination_circle,dec=+20.148 r=0.9540,0,66,-0.9487,-0.0997
+summer_declination_circle,dec=+20.148 r=0.9540,0,67,-0.9534,-0.0333
+summer_declination_circle,dec=+20.148 r=0.9540,0,68,-0.9534,0.0333
+summer_declination_circle,dec=+20.148 r=0.9540,0,69,-0.9487,0.0997
+summer_declination_circle,dec=+20.148 r=0.9540,0,70,-0.9395,0.1657
+summer_declination_circle,dec=+20.148 r=0.9540,0,71,-0.9256,0.2308
+summer_declination_circle,dec=+20.148 r=0.9540,0,72,-0.9073,0.2948
+summer_declination_circle,dec=+20.148 r=0.9540,0,73,-0.8845,0.3574
+summer_declination_circle,dec=+20.148 r=0.9540,0,74,-0.8574,0.4182
+summer_declination_circle,dec=+20.148 r=0.9540,0,75,-0.8261,0.4770
+summer_declination_circle,dec=+20.148 r=0.9540,0,76,-0.7909,0.5334
+summer_declination_circle,dec=+20.148 r=0.9540,0,77,-0.7517,0.5873
+summer_declination_circle,dec=+20.148 r=0.9540,0,78,-0.7089,0.6383
+summer_declination_circle,dec=+20.148 r=0.9540,0,79,-0.6627,0.6862
+summer_declination_circle,dec=+20.148 r=0.9540,0,80,-0.6132,0.7308
+summer_declination_circle,dec=+20.148 r=0.9540,0,81,-0.5607,0.7718
+summer_declination_circle,dec=+20.148 r=0.9540,0,82,-0.5055,0.8090
+summer_declination_circle,dec=+20.148 r=0.9540,0,83,-0.4479,0.8423
+summer_declination_circle,dec=+20.148 r=0.9540,0,84,-0.3880,0.8715
+summer_declination_circle,dec=+20.148 r=0.9540,0,85,-0.3263,0.8964
+summer_declination_circle,dec=+20.148 r=0.9540,0,86,-0.2629,0.9170
+summer_declination_circle,dec=+20.148 r=0.9540,0,87,-0.1983,0.9331
+summer_declination_circle,dec=+20.148 r=0.9540,0,88,-0.1328,0.9447
+summer_declination_circle,dec=+20.148 r=0.9540,0,89,-0.0665,0.9516
+summer_declination_circle,dec=+20.148 r=0.9540,0,90,-0.0000,0.9540
+summer_declination_circle,dec=+23.436 r=0.8074,0,0,0.0000,0.8074
+summer_declination_circle,dec=+23.436 r=0.8074,0,1,0.0563,0.8054
+summer_declination_circle,dec=+23.436 r=0.8074,0,2,0.1124,0.7995
+summer_declination_circle,dec=+23.436 r=0.8074,0,3,0.1679,0.7898
+summer_declination_circle,dec=+23.436 r=0.8074,0,4,0.2226,0.7761
+summer_declination_circle,dec=+23.436 r=0.8074,0,5,0.2761,0.7587
+summer_declination_circle,dec=+23.436 r=0.8074,0,6,0.3284,0.7376
+summer_declination_circle,dec=+23.436 r=0.8074,0,7,0.3791,0.7129
+summer_declination_circle,dec=+23.436 r=0.8074,0,8,0.4279,0.6847
+summer_declination_circle,dec=+23.436 r=0.8074,0,9,0.4746,0.6532
+summer_declination_circle,dec=+23.436 r=0.8074,0,10,0.5190,0.6185
+summer_declination_circle,dec=+23.436 r=0.8074,0,11,0.5609,0.5808
+summer_declination_circle,dec=+23.436 r=0.8074,0,12,0.6000,0.5403
+summer_declination_circle,dec=+23.436 r=0.8074,0,13,0.6362,0.4971
+summer_declination_circle,dec=+23.436 r=0.8074,0,14,0.6694,0.4515
+summer_declination_circle,dec=+23.436 r=0.8074,0,15,0.6992,0.4037
+summer_declination_circle,dec=+23.436 r=0.8074,0,16,0.7257,0.3539
+summer_declination_circle,dec=+23.436 r=0.8074,0,17,0.7486,0.3025
+summer_declination_circle,dec=+23.436 r=0.8074,0,18,0.7679,0.2495
+summer_declination_circle,dec=+23.436 r=0.8074,0,19,0.7834,0.1953
+summer_declination_circle,dec=+23.436 r=0.8074,0,20,0.7951,0.1402
+summer_declination_circle,dec=+23.436 r=0.8074,0,21,0.8030,0.0844
+summer_declination_circle,dec=+23.436 r=0.8074,0,22,0.8069,0.0282
+summer_declination_circle,dec=+23.436 r=0.8074,0,23,0.8069,-0.0282
+summer_declination_circle,dec=+23.436 r=0.8074,0,24,0.8030,-0.0844
+summer_declination_circle,dec=+23.436 r=0.8074,0,25,0.7951,-0.1402
+summer_declination_circle,dec=+23.436 r=0.8074,0,26,0.7834,-0.1953
+summer_declination_circle,dec=+23.436 r=0.8074,0,27,0.7679,-0.2495
+summer_declination_circle,dec=+23.436 r=0.8074,0,28,0.7486,-0.3025
+summer_declination_circle,dec=+23.436 r=0.8074,0,29,0.7257,-0.3539
+summer_declination_circle,dec=+23.436 r=0.8074,0,30,0.6992,-0.4037
+summer_declination_circle,dec=+23.436 r=0.8074,0,31,0.6694,-0.4515
+summer_declination_circle,dec=+23.436 r=0.8074,0,32,0.6362,-0.4971
+summer_declination_circle,dec=+23.436 r=0.8074,0,33,0.6000,-0.5403
+summer_declination_circle,dec=+23.436 r=0.8074,0,34,0.5609,-0.5808
+summer_declination_circle,dec=+23.436 r=0.8074,0,35,0.5190,-0.6185
+summer_declination_circle,dec=+23.436 r=0.8074,0,36,0.4746,-0.6532
+summer_declination_circle,dec=+23.436 r=0.8074,0,37,0.4279,-0.6847
+summer_declination_circle,dec=+23.436 r=0.8074,0,38,0.3791,-0.7129
+summer_declination_circle,dec=+23.436 r=0.8074,0,39,0.3284,-0.7376
+summer_declination_circle,dec=+23.436 r=0.8074,0,40,0.2761,-0.7587
+summer_declination_circle,dec=+23.436 r=0.8074,0,41,0.2226,-0.7761
+summer_declination_circle,dec=+23.436 r=0.8074,0,42,0.1679,-0.7898
+summer_declination_circle,dec=+23.436 r=0.8074,0,43,0.1124,-0.7995
+summer_declination_circle,dec=+23.436 r=0.8074,0,44,0.0563,-0.8054
+summer_declination_circle,dec=+23.436 r=0.8074,0,45,0.0000,-0.8074
+summer_declination_circle,dec=+23.436 r=0.8074,0,46,-0.0563,-0.8054
+summer_declination_circle,dec=+23.436 r=0.8074,0,47,-0.1124,-0.7995
+summer_declination_circle,dec=+23.436 r=0.8074,0,48,-0.1679,-0.7898
+summer_declination_circle,dec=+23.436 r=0.8074,0,49,-0.2226,-0.7761
+summer_declination_circle,dec=+23.436 r=0.8074,0,50,-0.2761,-0.7587
+summer_declination_circle,dec=+23.436 r=0.8074,0,51,-0.3284,-0.7376
+summer_declination_circle,dec=+23.436 r=0.8074,0,52,-0.3791,-0.7129
+summer_declination_circle,dec=+23.436 r=0.8074,0,53,-0.4279,-0.6847
+summer_declination_circle,dec=+23.436 r=0.8074,0,54,-0.4746,-0.6532
+summer_declination_circle,dec=+23.436 r=0.8074,0,55,-0.5190,-0.6185
+summer_declination_circle,dec=+23.436 r=0.8074,0,56,-0.5609,-0.5808
+summer_declination_circle,dec=+23.436 r=0.8074,0,57,-0.6000,-0.5403
+summer_declination_circle,dec=+23.436 r=0.8074,0,58,-0.6362,-0.4971
+summer_declination_circle,dec=+23.436 r=0.8074,0,59,-0.6694,-0.4515
+summer_declination_circle,dec=+23.436 r=0.8074,0,60,-0.6992,-0.4037
+summer_declination_circle,dec=+23.436 r=0.8074,0,61,-0.7257,-0.3539
+summer_declination_circle,dec=+23.436 r=0.8074,0,62,-0.7486,-0.3025
+summer_declination_circle,dec=+23.436 r=0.8074,0,63,-0.7679,-0.2495
+summer_declination_circle,dec=+23.436 r=0.8074,0,64,-0.7834,-0.1953
+summer_declination_circle,dec=+23.436 r=0.8074,0,65,-0.7951,-0.1402
+summer_declination_circle,dec=+23.436 r=0.8074,0,66,-0.8030,-0.0844
+summer_declination_circle,dec=+23.436 r=0.8074,0,67,-0.8069,-0.0282
+summer_declination_circle,dec=+23.436 r=0.8074,0,68,-0.8069,0.0282
+summer_declination_circle,dec=+23.436 r=0.8074,0,69,-0.8030,0.0844
+summer_declination_circle,dec=+23.436 r=0.8074,0,70,-0.7951,0.1402
+summer_declination_circle,dec=+23.436 r=0.8074,0,71,-0.7834,0.1953
+summer_declination_circle,dec=+23.436 r=0.8074,0,72,-0.7679,0.2495
+summer_declination_circle,dec=+23.436 r=0.8074,0,73,-0.7486,0.3025
+summer_declination_circle,dec=+23.436 r=0.8074,0,74,-0.7257,0.3539
+summer_declination_circle,dec=+23.436 r=0.8074,0,75,-0.6992,0.4037
+summer_declination_circle,dec=+23.436 r=0.8074,0,76,-0.6694,0.4515
+summer_declination_circle,dec=+23.436 r=0.8074,0,77,-0.6362,0.4971
+summer_declination_circle,dec=+23.436 r=0.8074,0,78,-0.6000,0.5403
+summer_declination_circle,dec=+23.436 r=0.8074,0,79,-0.5609,0.5808
+summer_declination_circle,dec=+23.436 r=0.8074,0,80,-0.5190,0.6185
+summer_declination_circle,dec=+23.436 r=0.8074,0,81,-0.4746,0.6532
+summer_declination_circle,dec=+23.436 r=0.8074,0,82,-0.4279,0.6847
+summer_declination_circle,dec=+23.436 r=0.8074,0,83,-0.3791,0.7129
+summer_declination_circle,dec=+23.436 r=0.8074,0,84,-0.3284,0.7376
+summer_declination_circle,dec=+23.436 r=0.8074,0,85,-0.2761,0.7587
+summer_declination_circle,dec=+23.436 r=0.8074,0,86,-0.2226,0.7761
+summer_declination_circle,dec=+23.436 r=0.8074,0,87,-0.1679,0.7898
+summer_declination_circle,dec=+23.436 r=0.8074,0,88,-0.1124,0.7995
+summer_declination_circle,dec=+23.436 r=0.8074,0,89,-0.0563,0.8054
+summer_declination_circle,dec=+23.436 r=0.8074,0,90,-0.0000,0.8074
+summer_asr,shafii k=1,0,0,1.3291,0.9672
+summer_asr,shafii k=1,0,1,1.2855,0.9342
+summer_asr,shafii k=1,0,2,1.2445,0.9034
+summer_asr,shafii k=1,0,3,1.1875,0.8606
+summer_asr,shafii k=1,0,4,1.1352,0.8215
+summer_asr,shafii k=1,0,5,1.0870,0.7857
+summer_asr,shafii k=1,0,6,1.0425,0.7528
+summer_asr,shafii k=1,0,7,1.0012,0.7224
+summer_asr,shafii k=1,0,8,0.9506,0.6855
+summer_asr,shafii k=1,0,9,0.9043,0.6520
+summer_asr,shafii k=1,0,10,0.8619,0.6215
+summer_asr,shafii k=1,0,11,0.8135,0.5871
+summer_asr,shafii k=1,0,12,0.7695,0.5563
+summer_asr,shafii k=1,0,13,0.7217,0.5233
+summer_asr,shafii k=1,0,14,0.6784,0.4940
+summer_asr,shafii k=1,0,15,0.6518,0.4762
+winter_hour_ray,T=4.00 EET-mean H=-118.756deg,0,0,-0.0877,-0.0481
+winter_hour_ray,T=4.00 EET-mean H=-118.756deg,0,1,-1.4641,-0.8034
+winter_hour_ray,T=4.25 EET-mean H=-115.006deg,0,0,-0.0906,-0.0423
+winter_hour_ray,T=4.25 EET-mean H=-115.006deg,0,1,-1.5135,-0.7059
+winter_hour_ray,T=4.50 EET-mean H=-111.256deg,0,0,-0.0932,-0.0363
+winter_hour_ray,T=4.50 EET-mean H=-111.256deg,0,1,-1.5564,-0.6054
+winter_hour_ray,T=4.75 EET-mean H=-107.506deg,0,0,-0.0954,-0.0301
+winter_hour_ray,T=4.75 EET-mean H=-107.506deg,0,1,-1.5927,-0.5023
+winter_hour_ray,T=5.00 EET-mean H=-103.756deg,0,0,-0.0971,-0.0238
+winter_hour_ray,T=5.00 EET-mean H=-103.756deg,0,1,-1.6221,-0.3971
+winter_hour_ray,T=5.25 EET-mean H=-100.006deg,0,0,-0.0985,-0.0174
+winter_hour_ray,T=5.25 EET-mean H=-100.006deg,0,1,-1.6446,-0.2902
+winter_hour_ray,T=5.50 EET-mean H=-96.256deg,0,0,-0.0994,-0.0109
+winter_hour_ray,T=5.50 EET-mean H=-96.256deg,0,1,-1.6601,-0.1820
+winter_hour_ray,T=5.75 EET-mean H=-92.506deg,0,0,-0.0999,-0.0044
+winter_hour_ray,T=5.75 EET-mean H=-92.506deg,0,1,-1.6684,-0.0730
+winter_hour_ray,T=6.00 EET-mean H=-88.756deg,0,0,-0.1000,0.0022
+winter_hour_ray,T=6.00 EET-mean H=-88.756deg,0,1,-1.6696,0.0363
+winter_hour_ray,T=6.25 EET-mean H=-85.006deg,0,0,-0.0996,0.0087
+winter_hour_ray,T=6.25 EET-mean H=-85.006deg,0,1,-1.6637,0.1454
+winter_hour_ray,T=6.50 EET-mean H=-81.256deg,0,0,-0.0988,0.0152
+winter_hour_ray,T=6.50 EET-mean H=-81.256deg,0,1,-1.6506,0.2539
+winter_hour_ray,T=6.75 EET-mean H=-77.506deg,0,0,-0.0976,0.0216
+winter_hour_ray,T=6.75 EET-mean H=-77.506deg,0,1,-1.6305,0.3613
+winter_hour_ray,T=7.00 EET-mean H=-73.756deg,0,0,-0.0960,0.0280
+winter_hour_ray,T=7.00 EET-mean H=-73.756deg,0,1,-1.6033,0.4672
+winter_hour_ray,T=7.25 EET-mean H=-70.006deg,0,0,-0.0940,0.0342
+winter_hour_ray,T=7.25 EET-mean H=-70.006deg,0,1,-1.5693,0.5710
+winter_hour_ray,T=7.50 EET-mean H=-66.256deg,0,0,-0.0915,0.0403
+winter_hour_ray,T=7.50 EET-mean H=-66.256deg,0,1,-1.5286,0.6724
+winter_hour_ray,T=7.75 EET-mean H=-62.506deg,0,0,-0.0887,0.0462
+winter_hour_ray,T=7.75 EET-mean H=-62.506deg,0,1,-1.4814,0.7710
+winter_hour_ray,T=8.00 EET-mean H=-58.756deg,0,0,-0.0855,0.0519
+winter_hour_ray,T=8.00 EET-mean H=-58.756deg,0,1,-1.4278,0.8662
+winter_hour_ray,T=8.25 EET-mean H=-55.006deg,0,0,-0.0819,0.0573
+winter_hour_ray,T=8.25 EET-mean H=-55.006deg,0,1,-1.3681,0.9577
+winter_hour_ray,T=8.50 EET-mean H=-51.256deg,0,0,-0.0780,0.0626
+winter_hour_ray,T=8.50 EET-mean H=-51.256deg,0,1,-1.3025,1.0452
+winter_hour_ray,T=8.75 EET-mean H=-47.506deg,0,0,-0.0737,0.0676
+winter_hour_ray,T=8.75 EET-mean H=-47.506deg,0,1,-1.2314,1.1281
+winter_hour_ray,T=9.00 EET-mean H=-43.756deg,0,0,-0.0692,0.0722
+winter_hour_ray,T=9.00 EET-mean H=-43.756deg,0,1,-1.1549,1.2062
+winter_hour_ray,T=9.25 EET-mean H=-40.006deg,0,0,-0.0643,0.0766
+winter_hour_ray,T=9.25 EET-mean H=-40.006deg,0,1,-1.0736,1.2792
+winter_hour_ray,T=9.50 EET-mean H=-36.256deg,0,0,-0.0591,0.0806
+winter_hour_ray,T=9.50 EET-mean H=-36.256deg,0,1,-0.9876,1.3467
+winter_hour_ray,T=9.75 EET-mean H=-32.506deg,0,0,-0.0537,0.0843
+winter_hour_ray,T=9.75 EET-mean H=-32.506deg,0,1,-0.8974,1.4084
+winter_hour_ray,T=10.00 EET-mean H=-28.756deg,0,0,-0.0481,0.0877
+winter_hour_ray,T=10.00 EET-mean H=-28.756deg,0,1,-0.8034,1.4641
+winter_hour_ray,T=10.25 EET-mean H=-25.006deg,0,0,-0.0423,0.0906
+winter_hour_ray,T=10.25 EET-mean H=-25.006deg,0,1,-0.7059,1.5135
+winter_hour_ray,T=10.50 EET-mean H=-21.256deg,0,0,-0.0363,0.0932
+winter_hour_ray,T=10.50 EET-mean H=-21.256deg,0,1,-0.6054,1.5564
+winter_hour_ray,T=10.75 EET-mean H=-17.506deg,0,0,-0.0301,0.0954
+winter_hour_ray,T=10.75 EET-mean H=-17.506deg,0,1,-0.5023,1.5927
+winter_hour_ray,T=11.00 EET-mean H=-13.756deg,0,0,-0.0238,0.0971
+winter_hour_ray,T=11.00 EET-mean H=-13.756deg,0,1,-0.3971,1.6221
+winter_hour_ray,T=11.25 EET-mean H=-10.006deg,0,0,-0.0174,0.0985
+winter_hour_ray,T=11.25 EET-mean H=-10.006deg,0,1,-0.2902,1.6446
+winter_hour_ray,T=11.50 EET-mean H=-6.256deg,0,0,-0.0109,0.0994
+winter_hour_ray,T=11.50 EET-mean H=-6.256deg,0,1,-0.1820,1.6601
+winter_hour_ray,T=11.75 EET-mean H=-2.506deg,0,0,-0.0044,0.0999
+winter_hour_ray,T=11.75 EET-mean H=-2.506deg,0,1,-0.0730,1.6684
+winter_hour_ray,T=12.00 EET-mean H=+1.244deg,0,0,0.0022,0.1000
+winter_hour_ray,T=12.00 EET-mean H=+1.244deg,0,1,0.0363,1.6696
+winter_hour_ray,T=12.25 EET-mean H=+4.994deg,0,0,0.0087,0.0996
+winter_hour_ray,T=12.25 EET-mean H=+4.994deg,0,1,0.1454,1.6637
+winter_hour_ray,T=12.50 EET-mean H=+8.744deg,0,0,0.0152,0.0988
+winter_hour_ray,T=12.50 EET-mean H=+8.744deg,0,1,0.2539,1.6506
+winter_hour_ray,T=12.75 EET-mean H=+12.494deg,0,0,0.0216,0.0976
+winter_hour_ray,T=12.75 EET-mean H=+12.494deg,0,1,0.3613,1.6305
+winter_hour_ray,T=13.00 EET-mean H=+16.244deg,0,0,0.0280,0.0960
+winter_hour_ray,T=13.00 EET-mean H=+16.244deg,0,1,0.4672,1.6033
+winter_hour_ray,T=13.25 EET-mean H=+19.994deg,0,0,0.0342,0.0940
+winter_hour_ray,T=13.25 EET-mean H=+19.994deg,0,1,0.5710,1.5693
+winter_hour_ray,T=13.50 EET-mean H=+23.744deg,0,0,0.0403,0.0915
+winter_hour_ray,T=13.50 EET-mean H=+23.744deg,0,1,0.6724,1.5286
+winter_hour_ray,T=13.75 EET-mean H=+27.494deg,0,0,0.0462,0.0887
+winter_hour_ray,T=13.75 EET-mean H=+27.494deg,0,1,0.7710,1.4814
+winter_hour_ray,T=14.00 EET-mean H=+31.244deg,0,0,0.0519,0.0855
+winter_hour_ray,T=14.00 EET-mean H=+31.244deg,0,1,0.8662,1.4278
+winter_hour_ray,T=14.25 EET-mean H=+34.994deg,0,0,0.0573,0.0819
+winter_hour_ray,T=14.25 EET-mean H=+34.994deg,0,1,0.9577,1.3681
+winter_hour_ray,T=14.50 EET-mean H=+38.744deg,0,0,0.0626,0.0780
+winter_hour_ray,T=14.50 EET-mean H=+38.744deg,0,1,1.0452,1.3025
+winter_hour_ray,T=14.75 EET-mean H=+42.494deg,0,0,0.0676,0.0737
+winter_hour_ray,T=14.75 EET-mean H=+42.494deg,0,1,1.1281,1.2314
+winter_hour_ray,T=15.00 EET-mean H=+46.244deg,0,0,0.0722,0.0692
+winter_hour_ray,T=15.00 EET-mean H=+46.244deg,0,1,1.2062,1.1549
+winter_hour_ray,T=15.25 EET-mean H=+49.994deg,0,0,0.0766,0.0643
+winter_hour_ray,T=15.25 EET-mean H=+49.994deg,0,1,1.2792,1.0736
+winter_hour_ray,T=15.50 EET-mean H=+53.744deg,0,0,0.0806,0.0591
+winter_hour_ray,T=15.50 EET-mean H=+53.744deg,0,1,1.3467,0.9876
+winter_hour_ray,T=15.75 EET-mean H=+57.494deg,0,0,0.0843,0.0537
+winter_hour_ray,T=15.75 EET-mean H=+57.494deg,0,1,1.4084,0.8974
+winter_hour_ray,T=16.00 EET-mean H=+61.244deg,0,0,0.0877,0.0481
+winter_hour_ray,T=16.00 EET-mean H=+61.244deg,0,1,1.4641,0.8034
+winter_hour_ray,T=16.25 EET-mean H=+64.994deg,0,0,0.0906,0.0423
+winter_hour_ray,T=16.25 EET-mean H=+64.994deg,0,1,1.5135,0.7059
+winter_hour_ray,T=16.50 EET-mean H=+68.744deg,0,0,0.0932,0.0363
+winter_hour_ray,T=16.50 EET-mean H=+68.744deg,0,1,1.5564,0.6054
+winter_hour_ray,T=16.75 EET-mean H=+72.494deg,0,0,0.0954,0.0301
+winter_hour_ray,T=16.75 EET-mean H=+72.494deg,0,1,1.5927,0.5023
+winter_hour_ray,T=17.00 EET-mean H=+76.244deg,0,0,0.0971,0.0238
+winter_hour_ray,T=17.00 EET-mean H=+76.244deg,0,1,1.6221,0.3971
+winter_hour_ray,T=17.25 EET-mean H=+79.994deg,0,0,0.0985,0.0174
+winter_hour_ray,T=17.25 EET-mean H=+79.994deg,0,1,1.6446,0.2902
+winter_hour_ray,T=17.50 EET-mean H=+83.744deg,0,0,0.0994,0.0109
+winter_hour_ray,T=17.50 EET-mean H=+83.744deg,0,1,1.6601,0.1820
+winter_hour_ray,T=17.75 EET-mean H=+87.494deg,0,0,0.0999,0.0044
+winter_hour_ray,T=17.75 EET-mean H=+87.494deg,0,1,1.6684,0.0730
+winter_hour_ray,T=18.00 EET-mean H=+91.244deg,0,0,0.1000,-0.0022
+winter_hour_ray,T=18.00 EET-mean H=+91.244deg,0,1,1.6696,-0.0363
+winter_hour_ray,T=18.25 EET-mean H=+94.994deg,0,0,0.0996,-0.0087
+winter_hour_ray,T=18.25 EET-mean H=+94.994deg,0,1,1.6637,-0.1454
+winter_hour_ray,T=18.50 EET-mean H=+98.744deg,0,0,0.0988,-0.0152
+winter_hour_ray,T=18.50 EET-mean H=+98.744deg,0,1,1.6506,-0.2539
+winter_hour_ray,T=18.75 EET-mean H=+102.494deg,0,0,0.0976,-0.0216
+winter_hour_ray,T=18.75 EET-mean H=+102.494deg,0,1,1.6305,-0.3613
+winter_hour_ray,T=19.00 EET-mean H=+106.244deg,0,0,0.0960,-0.0280
+winter_hour_ray,T=19.00 EET-mean H=+106.244deg,0,1,1.6033,-0.4672
+winter_hour_ray,T=19.25 EET-mean H=+109.994deg,0,0,0.0940,-0.0342
+winter_hour_ray,T=19.25 EET-mean H=+109.994deg,0,1,1.5693,-0.5710
+winter_hour_ray,T=19.50 EET-mean H=+113.744deg,0,0,0.0915,-0.0403
+winter_hour_ray,T=19.50 EET-mean H=+113.744deg,0,1,1.5286,-0.6724
+winter_hour_ray,T=19.75 EET-mean H=+117.494deg,0,0,0.0887,-0.0462
+winter_hour_ray,T=19.75 EET-mean H=+117.494deg,0,1,1.4814,-0.7710
+winter_hour_ray,T=20.00 EET-mean H=+121.244deg,0,0,0.0855,-0.0519
+winter_hour_ray,T=20.00 EET-mean H=+121.244deg,0,1,1.4278,-0.8662
+winter_declination_circle,dec=-20.148 r=0.9540,0,0,0.0000,0.9540
+winter_declination_circle,dec=-20.148 r=0.9540,0,1,0.0665,0.9516
+winter_declination_circle,dec=-20.148 r=0.9540,0,2,0.1328,0.9447
+winter_declination_circle,dec=-20.148 r=0.9540,0,3,0.1983,0.9331
+winter_declination_circle,dec=-20.148 r=0.9540,0,4,0.2629,0.9170
+winter_declination_circle,dec=-20.148 r=0.9540,0,5,0.3263,0.8964
+winter_declination_circle,dec=-20.148 r=0.9540,0,6,0.3880,0.8715
+winter_declination_circle,dec=-20.148 r=0.9540,0,7,0.4479,0.8423
+winter_declination_circle,dec=-20.148 r=0.9540,0,8,0.5055,0.8090
+winter_declination_circle,dec=-20.148 r=0.9540,0,9,0.5607,0.7718
+winter_declination_circle,dec=-20.148 r=0.9540,0,10,0.6132,0.7308
+winter_declination_circle,dec=-20.148 r=0.9540,0,11,0.6627,0.6862
+winter_declination_circle,dec=-20.148 r=0.9540,0,12,0.7089,0.6383
+winter_declination_circle,dec=-20.148 r=0.9540,0,13,0.7517,0.5873
+winter_declination_circle,dec=-20.148 r=0.9540,0,14,0.7909,0.5334
+winter_declination_circle,dec=-20.148 r=0.9540,0,15,0.8261,0.4770
+winter_declination_circle,dec=-20.148 r=0.9540,0,16,0.8574,0.4182
+winter_declination_circle,dec=-20.148 r=0.9540,0,17,0.8845,0.3574
+winter_declination_circle,dec=-20.148 r=0.9540,0,18,0.9073,0.2948
+winter_declination_circle,dec=-20.148 r=0.9540,0,19,0.9256,0.2308
+winter_declination_circle,dec=-20.148 r=0.9540,0,20,0.9395,0.1657
+winter_declination_circle,dec=-20.148 r=0.9540,0,21,0.9487,0.0997
+winter_declination_circle,dec=-20.148 r=0.9540,0,22,0.9534,0.0333
+winter_declination_circle,dec=-20.148 r=0.9540,0,23,0.9534,-0.0333
+winter_declination_circle,dec=-20.148 r=0.9540,0,24,0.9487,-0.0997
+winter_declination_circle,dec=-20.148 r=0.9540,0,25,0.9395,-0.1657
+winter_declination_circle,dec=-20.148 r=0.9540,0,26,0.9256,-0.2308
+winter_declination_circle,dec=-20.148 r=0.9540,0,27,0.9073,-0.2948
+winter_declination_circle,dec=-20.148 r=0.9540,0,28,0.8845,-0.3574
+winter_declination_circle,dec=-20.148 r=0.9540,0,29,0.8574,-0.4182
+winter_declination_circle,dec=-20.148 r=0.9540,0,30,0.8261,-0.4770
+winter_declination_circle,dec=-20.148 r=0.9540,0,31,0.7909,-0.5334
+winter_declination_circle,dec=-20.148 r=0.9540,0,32,0.7517,-0.5873
+winter_declination_circle,dec=-20.148 r=0.9540,0,33,0.7089,-0.6383
+winter_declination_circle,dec=-20.148 r=0.9540,0,34,0.6627,-0.6862
+winter_declination_circle,dec=-20.148 r=0.9540,0,35,0.6132,-0.7308
+winter_declination_circle,dec=-20.148 r=0.9540,0,36,0.5607,-0.7718
+winter_declination_circle,dec=-20.148 r=0.9540,0,37,0.5055,-0.8090
+winter_declination_circle,dec=-20.148 r=0.9540,0,38,0.4479,-0.8423
+winter_declination_circle,dec=-20.148 r=0.9540,0,39,0.3880,-0.8715
+winter_declination_circle,dec=-20.148 r=0.9540,0,40,0.3263,-0.8964
+winter_declination_circle,dec=-20.148 r=0.9540,0,41,0.2629,-0.9170
+winter_declination_circle,dec=-20.148 r=0.9540,0,42,0.1983,-0.9331
+winter_declination_circle,dec=-20.148 r=0.9540,0,43,0.1328,-0.9447
+winter_declination_circle,dec=-20.148 r=0.9540,0,44,0.0665,-0.9516
+winter_declination_circle,dec=-20.148 r=0.9540,0,45,0.0000,-0.9540
+winter_declination_circle,dec=-20.148 r=0.9540,0,46,-0.0665,-0.9516
+winter_declination_circle,dec=-20.148 r=0.9540,0,47,-0.1328,-0.9447
+winter_declination_circle,dec=-20.148 r=0.9540,0,48,-0.1983,-0.9331
+winter_declination_circle,dec=-20.148 r=0.9540,0,49,-0.2629,-0.9170
+winter_declination_circle,dec=-20.148 r=0.9540,0,50,-0.3263,-0.8964
+winter_declination_circle,dec=-20.148 r=0.9540,0,51,-0.3880,-0.8715
+winter_declination_circle,dec=-20.148 r=0.9540,0,52,-0.4479,-0.8423
+winter_declination_circle,dec=-20.148 r=0.9540,0,53,-0.5055,-0.8090
+winter_declination_circle,dec=-20.148 r=0.9540,0,54,-0.5607,-0.7718
+winter_declination_circle,dec=-20.148 r=0.9540,0,55,-0.6132,-0.7308
+winter_declination_circle,dec=-20.148 r=0.9540,0,56,-0.6627,-0.6862
+winter_declination_circle,dec=-20.148 r=0.9540,0,57,-0.7089,-0.6383
+winter_declination_circle,dec=-20.148 r=0.9540,0,58,-0.7517,-0.5873
+winter_declination_circle,dec=-20.148 r=0.9540,0,59,-0.7909,-0.5334
+winter_declination_circle,dec=-20.148 r=0.9540,0,60,-0.8261,-0.4770
+winter_declination_circle,dec=-20.148 r=0.9540,0,61,-0.8574,-0.4182
+winter_declination_circle,dec=-20.148 r=0.9540,0,62,-0.8845,-0.3574
+winter_declination_circle,dec=-20.148 r=0.9540,0,63,-0.9073,-0.2948
+winter_declination_circle,dec=-20.148 r=0.9540,0,64,-0.9256,-0.2308
+winter_declination_circle,dec=-20.148 r=0.9540,0,65,-0.9395,-0.1657
+winter_declination_circle,dec=-20.148 r=0.9540,0,66,-0.9487,-0.0997
+winter_declination_circle,dec=-20.148 r=0.9540,0,67,-0.9534,-0.0333
+winter_declination_circle,dec=-20.148 r=0.9540,0,68,-0.9534,0.0333
+winter_declination_circle,dec=-20.148 r=0.9540,0,69,-0.9487,0.0997
+winter_declination_circle,dec=-20.148 r=0.9540,0,70,-0.9395,0.1657
+winter_declination_circle,dec=-20.148 r=0.9540,0,71,-0.9256,0.2308
+winter_declination_circle,dec=-20.148 r=0.9540,0,72,-0.9073,0.2948
+winter_declination_circle,dec=-20.148 r=0.9540,0,73,-0.8845,0.3574
+winter_declination_circle,dec=-20.148 r=0.9540,0,74,-0.8574,0.4182
+winter_declination_circle,dec=-20.148 r=0.9540,0,75,-0.8261,0.4770
+winter_declination_circle,dec=-20.148 r=0.9540,0,76,-0.7909,0.5334
+winter_declination_circle,dec=-20.148 r=0.9540,0,77,-0.7517,0.5873
+winter_declination_circle,dec=-20.148 r=0.9540,0,78,-0.7089,0.6383
+winter_declination_circle,dec=-20.148 r=0.9540,0,79,-0.6627,0.6862
+winter_declination_circle,dec=-20.148 r=0.9540,0,80,-0.6132,0.7308
+winter_declination_circle,dec=-20.148 r=0.9540,0,81,-0.5607,0.7718
+winter_declination_circle,dec=-20.148 r=0.9540,0,82,-0.5055,0.8090
+winter_declination_circle,dec=-20.148 r=0.9540,0,83,-0.4479,0.8423
+winter_declination_circle,dec=-20.148 r=0.9540,0,84,-0.3880,0.8715
+winter_declination_circle,dec=-20.148 r=0.9540,0,85,-0.3263,0.8964
+winter_declination_circle,dec=-20.148 r=0.9540,0,86,-0.2629,0.9170
+winter_declination_circle,dec=-20.148 r=0.9540,0,87,-0.1983,0.9331
+winter_declination_circle,dec=-20.148 r=0.9540,0,88,-0.1328,0.9447
+winter_declination_circle,dec=-20.148 r=0.9540,0,89,-0.0665,0.9516
+winter_declination_circle,dec=-20.148 r=0.9540,0,90,-0.0000,0.9540
+winter_declination_circle,dec=-23.436 r=0.8074,0,0,0.0000,0.8074
+winter_declination_circle,dec=-23.436 r=0.8074,0,1,0.0563,0.8054
+winter_declination_circle,dec=-23.436 r=0.8074,0,2,0.1124,0.7995
+winter_declination_circle,dec=-23.436 r=0.8074,0,3,0.1679,0.7898
+winter_declination_circle,dec=-23.436 r=0.8074,0,4,0.2226,0.7761
+winter_declination_circle,dec=-23.436 r=0.8074,0,5,0.2761,0.7587
+winter_declination_circle,dec=-23.436 r=0.8074,0,6,0.3284,0.7376
+winter_declination_circle,dec=-23.436 r=0.8074,0,7,0.3791,0.7129
+winter_declination_circle,dec=-23.436 r=0.8074,0,8,0.4279,0.6847
+winter_declination_circle,dec=-23.436 r=0.8074,0,9,0.4746,0.6532
+winter_declination_circle,dec=-23.436 r=0.8074,0,10,0.5190,0.6185
+winter_declination_circle,dec=-23.436 r=0.8074,0,11,0.5609,0.5808
+winter_declination_circle,dec=-23.436 r=0.8074,0,12,0.6000,0.5403
+winter_declination_circle,dec=-23.436 r=0.8074,0,13,0.6362,0.4971
+winter_declination_circle,dec=-23.436 r=0.8074,0,14,0.6694,0.4515
+winter_declination_circle,dec=-23.436 r=0.8074,0,15,0.6992,0.4037
+winter_declination_circle,dec=-23.436 r=0.8074,0,16,0.7257,0.3539
+winter_declination_circle,dec=-23.436 r=0.8074,0,17,0.7486,0.3025
+winter_declination_circle,dec=-23.436 r=0.8074,0,18,0.7679,0.2495
+winter_declination_circle,dec=-23.436 r=0.8074,0,19,0.7834,0.1953
+winter_declination_circle,dec=-23.436 r=0.8074,0,20,0.7951,0.1402
+winter_declination_circle,dec=-23.436 r=0.8074,0,21,0.8030,0.0844
+winter_declination_circle,dec=-23.436 r=0.8074,0,22,0.8069,0.0282
+winter_declination_circle,dec=-23.436 r=0.8074,0,23,0.8069,-0.0282
+winter_declination_circle,dec=-23.436 r=0.8074,0,24,0.8030,-0.0844
+winter_declination_circle,dec=-23.436 r=0.8074,0,25,0.7951,-0.1402
+winter_declination_circle,dec=-23.436 r=0.8074,0,26,0.7834,-0.1953
+winter_declination_circle,dec=-23.436 r=0.8074,0,27,0.7679,-0.2495
+winter_declination_circle,dec=-23.436 r=0.8074,0,28,0.7486,-0.3025
+winter_declination_circle,dec=-23.436 r=0.8074,0,29,0.7257,-0.3539
+winter_declination_circle,dec=-23.436 r=0.8074,0,30,0.6992,-0.4037
+winter_declination_circle,dec=-23.436 r=0.8074,0,31,0.6694,-0.4515
+winter_declination_circle,dec=-23.436 r=0.8074,0,32,0.6362,-0.4971
+winter_declination_circle,dec=-23.436 r=0.8074,0,33,0.6000,-0.5403
+winter_declination_circle,dec=-23.436 r=0.8074,0,34,0.5609,-0.5808
+winter_declination_circle,dec=-23.436 r=0.8074,0,35,0.5190,-0.6185
+winter_declination_circle,dec=-23.436 r=0.8074,0,36,0.4746,-0.6532
+winter_declination_circle,dec=-23.436 r=0.8074,0,37,0.4279,-0.6847
+winter_declination_circle,dec=-23.436 r=0.8074,0,38,0.3791,-0.7129
+winter_declination_circle,dec=-23.436 r=0.8074,0,39,0.3284,-0.7376
+winter_declination_circle,dec=-23.436 r=0.8074,0,40,0.2761,-0.7587
+winter_declination_circle,dec=-23.436 r=0.8074,0,41,0.2226,-0.7761
+winter_declination_circle,dec=-23.436 r=0.8074,0,42,0.1679,-0.7898
+winter_declination_circle,dec=-23.436 r=0.8074,0,43,0.1124,-0.7995
+winter_declination_circle,dec=-23.436 r=0.8074,0,44,0.0563,-0.8054
+winter_declination_circle,dec=-23.436 r=0.8074,0,45,0.0000,-0.8074
+winter_declination_circle,dec=-23.436 r=0.8074,0,46,-0.0563,-0.8054
+winter_declination_circle,dec=-23.436 r=0.8074,0,47,-0.1124,-0.7995
+winter_declination_circle,dec=-23.436 r=0.8074,0,48,-0.1679,-0.7898
+winter_declination_circle,dec=-23.436 r=0.8074,0,49,-0.2226,-0.7761
+winter_declination_circle,dec=-23.436 r=0.8074,0,50,-0.2761,-0.7587
+winter_declination_circle,dec=-23.436 r=0.8074,0,51,-0.3284,-0.7376
+winter_declination_circle,dec=-23.436 r=0.8074,0,52,-0.3791,-0.7129
+winter_declination_circle,dec=-23.436 r=0.8074,0,53,-0.4279,-0.6847
+winter_declination_circle,dec=-23.436 r=0.8074,0,54,-0.4746,-0.6532
+winter_declination_circle,dec=-23.436 r=0.8074,0,55,-0.5190,-0.6185
+winter_declination_circle,dec=-23.436 r=0.8074,0,56,-0.5609,-0.5808
+winter_declination_circle,dec=-23.436 r=0.8074,0,57,-0.6000,-0.5403
+winter_declination_circle,dec=-23.436 r=0.8074,0,58,-0.6362,-0.4971
+winter_declination_circle,dec=-23.436 r=0.8074,0,59,-0.6694,-0.4515
+winter_declination_circle,dec=-23.436 r=0.8074,0,60,-0.6992,-0.4037
+winter_declination_circle,dec=-23.436 r=0.8074,0,61,-0.7257,-0.3539
+winter_declination_circle,dec=-23.436 r=0.8074,0,62,-0.7486,-0.3025
+winter_declination_circle,dec=-23.436 r=0.8074,0,63,-0.7679,-0.2495
+winter_declination_circle,dec=-23.436 r=0.8074,0,64,-0.7834,-0.1953
+winter_declination_circle,dec=-23.436 r=0.8074,0,65,-0.7951,-0.1402
+winter_declination_circle,dec=-23.436 r=0.8074,0,66,-0.8030,-0.0844
+winter_declination_circle,dec=-23.436 r=0.8074,0,67,-0.8069,-0.0282
+winter_declination_circle,dec=-23.436 r=0.8074,0,68,-0.8069,0.0282
+winter_declination_circle,dec=-23.436 r=0.8074,0,69,-0.8030,0.0844
+winter_declination_circle,dec=-23.436 r=0.8074,0,70,-0.7951,0.1402
+winter_declination_circle,dec=-23.436 r=0.8074,0,71,-0.7834,0.1953
+winter_declination_circle,dec=-23.436 r=0.8074,0,72,-0.7679,0.2495
+winter_declination_circle,dec=-23.436 r=0.8074,0,73,-0.7486,0.3025
+winter_declination_circle,dec=-23.436 r=0.8074,0,74,-0.7257,0.3539
+winter_declination_circle,dec=-23.436 r=0.8074,0,75,-0.6992,0.4037
+winter_declination_circle,dec=-23.436 r=0.8074,0,76,-0.6694,0.4515
+winter_declination_circle,dec=-23.436 r=0.8074,0,77,-0.6362,0.4971
+winter_declination_circle,dec=-23.436 r=0.8074,0,78,-0.6000,0.5403
+winter_declination_circle,dec=-23.436 r=0.8074,0,79,-0.5609,0.5808
+winter_declination_circle,dec=-23.436 r=0.8074,0,80,-0.5190,0.6185
+winter_declination_circle,dec=-23.436 r=0.8074,0,81,-0.4746,0.6532
+winter_declination_circle,dec=-23.436 r=0.8074,0,82,-0.4279,0.6847
+winter_declination_circle,dec=-23.436 r=0.8074,0,83,-0.3791,0.7129
+winter_declination_circle,dec=-23.436 r=0.8074,0,84,-0.3284,0.7376
+winter_declination_circle,dec=-23.436 r=0.8074,0,85,-0.2761,0.7587
+winter_declination_circle,dec=-23.436 r=0.8074,0,86,-0.2226,0.7761
+winter_declination_circle,dec=-23.436 r=0.8074,0,87,-0.1679,0.7898
+winter_declination_circle,dec=-23.436 r=0.8074,0,88,-0.1124,0.7995
+winter_declination_circle,dec=-23.436 r=0.8074,0,89,-0.0563,0.8054
+winter_declination_circle,dec=-23.436 r=0.8074,0,90,-0.0000,0.8074
+winter_asr,shafii k=1,0,0,0.5399,0.6001
+winter_asr,shafii k=1,0,1,0.5874,0.6345
+winter_asr,shafii k=1,0,2,0.6327,0.6674
+winter_asr,shafii k=1,0,3,0.6743,0.6978
+winter_asr,shafii k=1,0,4,0.7199,0.7314
+winter_asr,shafii k=1,0,5,0.7702,0.7687
+winter_asr,shafii k=1,0,6,0.8144,0.8016
+winter_asr,shafii k=1,0,7,0.8628,0.8377
+winter_asr,shafii k=1,0,8,0.9158,0.8775
+winter_asr,shafii k=1,0,9,0.9592,0.9102
+winter_asr,shafii k=1,0,10,1.0061,0.9456
+winter_asr,shafii k=1,0,11,1.0570,0.9841
+winter_asr,shafii k=1,0,12,1.1123,1.0261
+winter_asr,shafii k=1,0,13,1.1728,1.0722
+winter_asr,shafii k=1,0,14,1.2164,1.1055
