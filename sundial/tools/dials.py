@@ -148,36 +148,31 @@ class DesignC:
         self.meridian = hour_line(self.nodus, 0.0, R)
 
 
-# ---------------------------------------------------------------- التصميم (د): رخامة ابن الصوفي (الموازية لمعدل النهار)
+# ---------------------------------------------------------------- التصميم (د): حلقة الاستواء (مزولة استوائية أسطوانية / Heliochronometer)
 class DesignD:
-    """مزولة استوائية: قرص موازٍ لدائرة معدل النهار يخترقه محور قطبي؛ وجه صيفي يعلو نحو الشمال ووجه شتوي تحته."""
-    Rd = 1.80          # نصف قطر القرص
-    zc = 2.00          # ارتفاع مركز القرص
-    g = 0.35           # بعد عقدة المحور (الخرزة) عن كل وجه
-    rod = 1.00         # امتداد المحور خارج كل وجه
+    """حلقة استوائية عريضة (جزء أسطوانة محوره القطبي) تحملها حلقة زوال؛ ظل خرزة المحور يرسم التاريخ،
+    وعلى كل ساعة رسمية منحنى «زوال الوقت المتوسط» (ثمانية) فتُقرأ الساعة الرسمية مباشرة (Rohr، الفصلان 3 و5 و9)."""
+    Rb = 1.80          # نصف قطر الحلقة الاستوائية (السطح الداخلي)
+    half_w = 0.90      # نصف عرض الحلقة على امتداد المحور
+    zc = 2.60          # ارتفاع مركز الكرة (الخرزة)
+    Rm = 2.40          # نصف قطر حلقة الزوال
+    H_ext = 105.0      # امتداد الحلقة شرقًا وغربًا بالزاوية الساعية
 
     def __init__(self):
         p = rad(LAT)
-        self.u = (0.0, cos(p), sin(p))          # المحور القطبي
+        self.u = (0.0, cos(p), sin(p))
         self.e = (1.0, 0.0, 0.0)
-        self.v = (0.0, sin(p), -cos(p))         # في المستوى: نحو الشمال والأسفل
+        self.w = (0.0, sin(p), -cos(p))
         self.corr = LON - ZONE_MERIDIAN
 
-    def face_point(self, dec, H, summer=True):
-        """موضع ظل الخرزة على الوجه بإحداثيي (e, v) من المركز، أو None."""
-        E, N, U = sunvec(dec, H)
-        s = (E, N, U)
-        su = sum(a*b for a, b in zip(s, self.u))
-        n = 1 if summer else -1
-        t = self.g*n/su if abs(su) > 1e-9 else -1
-        if t <= 0 or U <= 0.02: return None
-        P = [self.g*n*self.u[i] - t*s[i] for i in range(3)]
-        return (sum(P[i]*self.e[i] for i in range(3)), sum(P[i]*self.v[i] for i in range(3)))
+    def band(self, H, dec):
+        """إحداثيات الحلقة المفرودة (X على القوس، Y على المحور) لظل الخرزة. X موجب بعد الظهر، وY موجب نحو الحافة الشمالية العليا."""
+        return (self.Rb*rad(H), -self.Rb*tan(rad(dec)))
 
-    def screen(self, pe, pv, summer=True):
-        """إحداثيات الرسم كما يراها الواقف أمام الوجه: الصيفي من الشمال، والشتوي من الجنوب؛ وأعلى الرسم = أعلى القرص."""
-        return ((-pe if summer else pe), -pv)
-
-    def world(self, pe, pv, offset=0.0):
+    def world(self, H, a):
         c = (0.0, 0.0, self.zc)
-        return tuple(c[i] + pe*self.e[i] + pv*self.v[i] + offset*self.u[i] for i in range(3))
+        return tuple(c[i] + self.Rb*(sin(rad(H))*self.e[i] + cos(rad(H))*self.w[i]) + a*self.u[i] for i in range(3))
+
+    def shadow_world(self, dec, H):
+        X, Y = self.band(H, dec)
+        return self.world(H, Y)

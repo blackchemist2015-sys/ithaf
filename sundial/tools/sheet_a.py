@@ -30,7 +30,9 @@ def a01():
            '   الشافعي المعتمد في مصر)؛ والمتقطع: المثلان (الحنفي).',
            '• التواريخ الخاصة على خط الزوال تُقرأ عند الظهر.',
            '• جميع الأطوال بالمتر، والإحداثيات من مركز الدائرة.',
-           '• جداول التوقيع (الإحداثيات): ملفات CSV المرفقة.'])
+           '• جداول التوقيع (الإحداثيات): ملفات CSV المرفقة.',
+           '• المرجع: Rohr، Sundials، الفصل 3 §3 (المزولة الأفقية)،',
+           '   والفصل 5 §1–3 (منحنيات الميل وزوال الوقت المتوسط).'])
     girih_pattern(sh, 'gA', 0.9*v.k)
     calendar_ring(sh, v, A.R_FACE, R_SITE)
     c = v.p(0, 0)
@@ -159,7 +161,7 @@ def a01():
             '## وكيف تقرأ التاريخ؟', 'طرف ظل الشمسة يسير على منحنيات البروج،', 'وعند الظهر يمس تدريج الأيام على خط الزوال.',
             '## والليل؟', 'انظر عبر أنبوب الضلع المائل تجد نجم القطب.'], 2.25, 1.55)
     # مفتاح
-    lx = 830; ly = 64
+    lx = 830; ly = 50
     sh.text(lx, ly, 'مفتاح الرسم', 3.6, 'end', KUFI, INK, 700); ly += 7
     items = [(INK, 0.75, None, 'الساعة (والخط الرفيع ربعها)'), (GOLD, 1.3, None, 'خط الزوال / الظهر'),
              (TERRA, 0.6, None, 'مداخل البروج (التاريخ)'), (GOLD, 0.9, None, 'خط الاعتدالين'),
@@ -169,6 +171,20 @@ def a01():
     for col, sw, dash, t in items:
         sh.line((lx - 12, ly), (lx, ly), stroke=col, sw=sw, dash=dash)
         sh.text(lx - 14, ly, t, 2.45, 'end', SANS, INK); ly += 6
+    # جدول زوايا خطوط الساعات (Rohr: tan h = sin φ · tan H)
+    ty = 150
+    sh.text(lx, ty, 'زوايا خطوط الساعات', 3.2, 'end', KUFI, INK, 700); ty += 4.5
+    sh.text(lx, ty, 'عند ملتقى الضلع، من خط الزوال', 2.1, 'end', SANS, GREY); ty += 4.5
+    sh.ltr(lx - 40, ty, 'tan h = sin φ · tan H', 2.3, 'middle', SANS, INK, 600); ty += 6
+    for T in range(6, 19):
+        H = 15*(T - 12) + A.corr
+        h = deg(atan2(sin(rad(LAT))*sin(rad(H)), cos(rad(H))))
+        if T % 2 == 0: sh.rect(lx - 80, ty - 2.6, 80, 5.2, fill='#f2ead8', sw=0)
+        sh.text(lx - 2, ty, ar_digits(T % 12 or 12) + (' ص' if T < 12 else (' ظ' if T == 12 else ' م')), 2.4, 'end', KUFI, INK, 700)
+        sh.ltr(lx - 30, ty, f'H = {H:+.2f}°', 2.2, 'middle', SANS, GREY)
+        sh.ltr(lx - 62, ty, f'h = {h:+.2f}°', 2.3, 'middle', SANS, INK, 600)
+        ty += 5.2
+    sh.text(lx, ty + 2, 'الموجب نحو الشرق (بعد الظهر)', 2.0, 'end', SANS, GREY)
     north_arrow(sh, 805, 470)
     scale_bar(sh, v, 768, 510, 2, 1)
     return sh

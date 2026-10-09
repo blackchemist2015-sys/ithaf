@@ -54,20 +54,23 @@ rows += [('asr', 'shafii k=1', C.asr1), ('meridian', 'true noon', C.meridian)]
 write('C_eye_of_the_sun.csv', rows)
 print(os.listdir(OUT))
 
-# التصميم (د): إحداثيات على مستوى القرص (e شرقًا، v في المستوى نحو الشمال والأسفل) من مركزه
+# التصميم (د): إحداثيات باطن الحلقة مفرودًا (X على القوس شرقًا موجب، Y على العرض نحو الحافة الشمالية) بالمتر
 from dials import DesignD
 Dd = DesignD()
 rows = []
-for summer, face in ((True, 'summer'), (False, 'winter')):
-    for q in frange(-120, 120, 3.75):
-        H = q + Dd.corr
-        rows.append((f'{face}_hour_ray', f'T={12 + q/15:.2f} EET-mean H={H:+.3f}deg', [[(0.10*sin(rad(H)), 0.10*cos(rad(H))), ((Dd.Rd - 0.13)*sin(rad(H)), (Dd.Rd - 0.13)*cos(rad(H)))]]))
-    for dec, names, dates, lam in sign_curves():
-        if abs(dec) < 0.1 or (dec > 0) != summer: continue
-        r = Dd.g/tan(rad(abs(dec)))
-        if r < Dd.Rd - 0.13:
-            rows.append((f'{face}_declination_circle', f'dec={dec:+.3f} r={r:.4f}', [[(r*sin(rad(t)), r*cos(rad(t))) for t in range(0, 361, 2)]]))
-    pts = [Dd.face_point(d, asr_H(d), summer) for d in frange(-23.44, 23.44, 0.2)]
-    rows.append((f'{face}_asr', 'shafii k=1', [[p for p in pts if p and hypot(*p) < Dd.Rd - 0.13]]))
-write('D_ibn_al_sufi_equatorial.csv', [r for r in rows if r[2] and r[2][0]])
+for T in range(5, 20):
+    a, b = [], []
+    for d_, dec, eot, lam in year_days(REF_YEAR, T):
+        p = Dd.band(H_from_clock(T, eot), dec)
+        ok = abs(p[0]) <= Dd.Rb*rad(Dd.H_ext) and abs(p[1]) <= Dd.half_w
+        (a if d_.month <= 6 else b).append(p if ok else None)
+    rows += [('band_analemma', f'{T:02d}:00 EET Jan-Jun', [[q for q in a if q]]), ('band_analemma', f'{T:02d}:00 EET Jul-Dec', [[q for q in b if q]])]
+for dec, names, dates, lam in sign_curves():
+    Y = -Dd.Rb*tan(rad(dec))
+    rows.append(('band_declination', f'dec={dec:+.3f} {"/".join(names)}', [[(-Dd.Rb*rad(Dd.H_ext), Y), (Dd.Rb*rad(Dd.H_ext), Y)]]))
+for m in range(-315, 316, 20):
+    X = Dd.Rb*rad(m/4)
+    rows.append(('band_true_time', f'{12 + m/60:.3f} h apparent', [[(X, -Dd.half_w), (X, Dd.half_w)]]))
+rows.append(('band_asr', 'shafii k=1', [[Dd.band(asr_H(d), d) for d in frange(-OBLIQUITY, OBLIQUITY, 0.2)]]))
+write('D_equator_ring_band.csv', [r for r in rows if r[2] and r[2][0]])
 print('D ok')

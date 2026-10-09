@@ -22,6 +22,8 @@
 <text x="157" y="129.7" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• التواريخ الخاصة على خط الزوال تُقرأ عند الظهر.</text>
 <text x="157" y="134" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• جميع الأطوال بالمتر، والإحداثيات من مركز الدائرة.</text>
 <text x="157" y="138.3" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• جداول التوقيع (الإحداثيات): ملفات CSV المرفقة.</text>
+<text x="157" y="142.6" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• المرجع: Rohr، Sundials، الفصل 3 §3 (المزولة الأفقية)،</text>
+<text x="157" y="146.9" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">   والفصل 5 §1–3 (منحنيات الميل وزوال الوقت المتوسط).</text>
 <path d="M12,524 L162,524" stroke="#1d1b19" stroke-width="0.35" fill="none" stroke-linecap="round" stroke-linejoin="round" />
 <text x="157" y="530" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">الموقع</text>
 <text x="17" y="530" font-size="2.7" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">φ = 30.0054° ش  •  λ = 31.2443° ق</text>
@@ -820,27 +822,77 @@
 <text x="598.33" y="417.93" font-size="2.25" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">وعند الظهر يمس تدريج الأيام على خط الزوال.</text>
 <text x="598.33" y="421.41" font-size="2.52" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">والليل؟</text>
 <text x="598.33" y="424.9" font-size="2.25" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">انظر عبر أنبوب الضلع المائل تجد نجم القطب.</text>
-<text x="830" y="64" font-size="3.6" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">مفتاح الرسم</text>
-<path d="M818,71 L830,71" stroke="#1d1b19" stroke-width="0.75" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="71" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">الساعة (والخط الرفيع ربعها)</text>
-<path d="M818,77 L830,77" stroke="#b8862b" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="77" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">خط الزوال / الظهر</text>
-<path d="M818,83 L830,83" stroke="#b4532a" stroke-width="0.6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="83" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">مداخل البروج (التاريخ)</text>
-<path d="M818,89 L830,89" stroke="#b8862b" stroke-width="0.9" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="89" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">خط الاعتدالين</text>
-<path d="M818,95 L830,95" stroke="#1f7a74" stroke-width="1.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="95" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">العصر الأول</text>
-<path d="M818,101 L830,101" stroke="#1f7a74" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.2 1.2" />
-<text x="816" y="101" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">العصر الثاني</text>
-<path d="M818,107 L830,107" stroke="#6b4c8a" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="107" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">١٢ ظهرًا بتوقيت مصر: يناير–يونيو</text>
-<path d="M818,113 L830,113" stroke="#6b4c8a" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.6 0.9" />
-<text x="816" y="113" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">…ويوليو–ديسمبر</text>
-<path d="M818,119 L830,119" stroke="#2f5d8a" stroke-width="1.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-<text x="816" y="119" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">اتجاه القبلة</text>
-<path d="M818,125 L830,125" stroke="#c0392b" stroke-width="0.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6" />
-<text x="816" y="125" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">أيام تراثية خاصة</text>
+<text x="830" y="50" font-size="3.6" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">مفتاح الرسم</text>
+<path d="M818,57 L830,57" stroke="#1d1b19" stroke-width="0.75" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="57" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">الساعة (والخط الرفيع ربعها)</text>
+<path d="M818,63 L830,63" stroke="#b8862b" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="63" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">خط الزوال / الظهر</text>
+<path d="M818,69 L830,69" stroke="#b4532a" stroke-width="0.6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="69" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">مداخل البروج (التاريخ)</text>
+<path d="M818,75 L830,75" stroke="#b8862b" stroke-width="0.9" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="75" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">خط الاعتدالين</text>
+<path d="M818,81 L830,81" stroke="#1f7a74" stroke-width="1.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="81" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">العصر الأول</text>
+<path d="M818,87 L830,87" stroke="#1f7a74" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.2 1.2" />
+<text x="816" y="87" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">العصر الثاني</text>
+<path d="M818,93 L830,93" stroke="#6b4c8a" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="93" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">١٢ ظهرًا بتوقيت مصر: يناير–يونيو</text>
+<path d="M818,99 L830,99" stroke="#6b4c8a" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.6 0.9" />
+<text x="816" y="99" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">…ويوليو–ديسمبر</text>
+<path d="M818,105 L830,105" stroke="#2f5d8a" stroke-width="1.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="816" y="105" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">اتجاه القبلة</text>
+<path d="M818,111 L830,111" stroke="#c0392b" stroke-width="0.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6" />
+<text x="816" y="111" font-size="2.45" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">أيام تراثية خاصة</text>
+<text x="830" y="150" font-size="3.2" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">زوايا خطوط الساعات</text>
+<text x="830" y="154.5" font-size="2.1" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">عند ملتقى الضلع، من خط الزوال</text>
+<text x="790" y="159" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">tan h = sin φ · tan H</text>
+<rect x="750" y="162.4" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="165" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٦ ص</text>
+<text x="800" y="165" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = -88.76°</text>
+<text x="768" y="165" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = -87.51°</text>
+<text x="828" y="170.2" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٧ ص</text>
+<text x="800" y="170.2" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = -73.76°</text>
+<text x="768" y="170.2" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = -59.77°</text>
+<rect x="750" y="172.8" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="175.4" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٨ ص</text>
+<text x="800" y="175.4" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = -58.76°</text>
+<text x="768" y="175.4" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = -39.50°</text>
+<text x="828" y="180.6" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٩ ص</text>
+<text x="800" y="180.6" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = -43.76°</text>
+<text x="768" y="180.6" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = -25.59°</text>
+<rect x="750" y="183.2" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="185.8" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">١٠ ص</text>
+<text x="800" y="185.8" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = -28.76°</text>
+<text x="768" y="185.8" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = -15.35°</text>
+<text x="828" y="191" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">١١ ص</text>
+<text x="800" y="191" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = -13.76°</text>
+<text x="768" y="191" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = -6.98°</text>
+<rect x="750" y="193.6" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="196.2" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">١٢ ظ</text>
+<text x="800" y="196.2" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +1.24°</text>
+<text x="768" y="196.2" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +0.62°</text>
+<text x="828" y="201.4" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">١ م</text>
+<text x="800" y="201.4" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +16.24°</text>
+<text x="768" y="201.4" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +8.29°</text>
+<rect x="750" y="204" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="206.6" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٢ م</text>
+<text x="800" y="206.6" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +31.24°</text>
+<text x="768" y="206.6" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +16.88°</text>
+<text x="828" y="211.8" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٣ م</text>
+<text x="800" y="211.8" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +46.24°</text>
+<text x="768" y="211.8" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +27.58°</text>
+<rect x="750" y="214.4" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="217" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٤ م</text>
+<text x="800" y="217" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +61.24°</text>
+<text x="768" y="217" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +42.34°</text>
+<text x="828" y="222.2" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٥ م</text>
+<text x="800" y="222.2" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +76.24°</text>
+<text x="768" y="222.2" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +63.92°</text>
+<rect x="750" y="224.8" width="80" height="5.2" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f2ead8"/>
+<text x="828" y="227.4" font-size="2.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">٦ م</text>
+<text x="800" y="227.4" font-size="2.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="ltr">H = +91.24°</text>
+<text x="768" y="227.4" font-size="2.3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">h = +92.49°</text>
+<text x="830" y="234.6" font-size="2" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">الموجب نحو الشرق (بعد الظهر)</text>
 <circle cx="805" cy="470" r="11" stroke="#1d1b19" stroke-width="0.3" fill="none"/>
 <path d="M805,459.55 L808.52,476.05 L805,472.75 L801.48,476.05 Z" stroke="#1d1b19" stroke-width="0.2" fill="#1d1b19" stroke-linecap="round" stroke-linejoin="round" />
 <text x="805" y="454.5" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الشمال الحقيقي</text>
