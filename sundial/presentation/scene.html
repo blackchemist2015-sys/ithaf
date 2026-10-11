@@ -1,0 +1,86 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000;overflow:hidden}</style></head><body>
+<script type="module">
+import * as THREE from './three.module.js';
+const P = new URLSearchParams(location.search);
+const W = +P.get('w')||2400, H = +P.get('h')||1600, view = P.get('view')||'hero';
+const renderer = new THREE.WebGLRenderer({antialias:true, preserveDrawingBuffer:true});
+renderer.setSize(W,H); renderer.setPixelRatio(1);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace; renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 0.95;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+// سماء متدرجة
+const sky = document.createElement('canvas'); sky.width=8; sky.height=512; const sg=sky.getContext('2d');
+const gr=sg.createLinearGradient(0,0,0,512); gr.addColorStop(0,'#5d8fc4'); gr.addColorStop(0.55,'#a9c8e3'); gr.addColorStop(1,'#efe3cc'); sg.fillStyle=gr; sg.fillRect(0,0,8,512);
+const skyT=new THREE.CanvasTexture(sky); skyT.colorSpace=THREE.SRGBColorSpace; scene.background=skyT;
+scene.fog = new THREE.Fog(0xe6dcc8, 45, 140);
+// الشمس: 21 مارس الساعة 3 عصرًا بالتوقيت الحقيقي، محسوبة لعرض الفسطاط
+const sE=-0.7071, sN=-0.3536, sU=0.6123;
+const sun = new THREE.DirectionalLight(0xfff1dc, 3.2);
+sun.position.set(sE*60, sU*60, -sN*60); sun.castShadow=true;
+sun.shadow.mapSize.set(4096,4096); const sc=sun.shadow.camera; sc.left=-22; sc.right=22; sc.top=22; sc.bottom=-22; sc.near=1; sc.far=150; sun.shadow.bias=-0.0004; sun.shadow.normalBias=0.02;
+scene.add(sun); scene.add(new THREE.HemisphereLight(0xcfe0f5, 0x9c8a66, 1.15));
+const std=(c,r=0.8,m=0)=>new THREE.MeshStandardMaterial({color:c,roughness:r,metalness:m});
+const rnd=(()=>{let s=7;return()=>{s=(s*16807)%2147483647;return s/2147483647}})();
+// الأرض: عشب
+const grassC=document.createElement('canvas'); grassC.width=grassC.height=512; const gg=grassC.getContext('2d'); gg.fillStyle='#6f8f45'; gg.fillRect(0,0,512,512);
+for(let i=0;i<9000;i++){gg.fillStyle=`hsl(${80+rnd()*25},${30+rnd()*25}%,${28+rnd()*18}%)`;gg.fillRect(rnd()*512,rnd()*512,2,2)}
+const grassT=new THREE.CanvasTexture(grassC); grassT.wrapS=grassT.wrapT=THREE.RepeatWrapping; grassT.repeat.set(40,40); grassT.colorSpace=THREE.SRGBColorSpace;
+const ground=new THREE.Mesh(new THREE.CircleGeometry(160,64), new THREE.MeshStandardMaterial({map:grassT,roughness:1})); ground.rotation.x=-Math.PI/2; ground.receiveShadow=true; scene.add(ground);
+// ممر حجري حول الساحة وممرات داخلة
+const pav=std(0xd9c7a4,0.9);
+const ring=new THREE.Mesh(new THREE.RingGeometry(7.25,9.6,128), pav); ring.rotation.x=-Math.PI/2; ring.position.y=0.02; ring.receiveShadow=true; scene.add(ring);
+for(const a of [0,90,180,270].map(d=>d*Math.PI/180)){const p=new THREE.Mesh(new THREE.PlaneGeometry(3.2,40), pav); p.rotation.x=-Math.PI/2; p.rotation.z=a; p.position.set(Math.sin(a)*29,0.015,Math.cos(a)*29); p.receiveShadow=true; scene.add(p)}
+// حافة جرانيت حمراء
+const kerb=new THREE.Mesh(new THREE.CylinderGeometry(7.32,7.32,0.18,128,1,true), std(0x8a3f2e,0.6)); kerb.position.y=0.09; kerb.receiveShadow=true; scene.add(kerb);
+// وجه المزولة بالخامة المحسوبة
+const tex=new THREE.TextureLoader().load('plaza.png', t=>{t.colorSpace=THREE.SRGBColorSpace; t.anisotropy=16; go();});
+const face=new THREE.Mesh(new THREE.CircleGeometry(7.3,128), new THREE.MeshStandardMaterial({map:tex, roughness:0.45, transparent:true}));
+// UV الدائرة: نجعلها تغطي مربع 15 م
+face.geometry.attributes.uv.array.forEach((_,i,a)=>{}); 
+{const g=face.geometry, pos=g.attributes.position, uv=g.attributes.uv; for(let i=0;i<pos.count;i++){uv.setXY(i, pos.getX(i)/15+0.5, pos.getY(i)/15+0.5)} uv.needsUpdate=true;}
+face.rotation.x=-Math.PI/2; face.position.y=0.185; face.receiveShadow=true; scene.add(face);
+const base=new THREE.Mesh(new THREE.CylinderGeometry(7.3,7.3,0.17,128), std(0xe8dcc4,0.7)); base.position.y=0.09; base.receiveShadow=true; base.castShadow=true; scene.add(base);
+// الشاخص القطبي (برونز) — نفس هندسة اللوحة A-04
+const LAT=30.0054*Math.PI/180, h=1.6, fy=-1.76, yb=fy-h/Math.tan(LAT);
+const sh=new THREE.Shape(); sh.moveTo(yb,0); sh.lineTo(fy,h); sh.lineTo(fy+0.10,h+0.07); sh.lineTo(fy+0.22,0.0); sh.lineTo(fy-0.10,0); sh.lineTo(fy-0.12,0.12);
+// تجويف مقوس على هيئة شاخص دمشق
+const hole=new THREE.Path(); hole.moveTo(yb+0.95,0.10);
+for(let t=0;t<=90;t+=6){const r=t*Math.PI/180; hole.lineTo(fy-0.10-0.75*(1-Math.cos(r)), 0.10+h*0.66*Math.sin(r))}
+hole.lineTo(fy-0.10,0.10);
+{const hp=hole.getPoints(), op=sh.getPoints(); if(THREE.ShapeUtils.isClockWise(hp)===THREE.ShapeUtils.isClockWise(op)) hp.reverse(); sh.holes.push(new THREE.Path(hp));}
+const geo=new THREE.ExtrudeGeometry(sh,{depth:0.07,bevelEnabled:true,bevelSize:0.012,bevelThickness:0.012,bevelSegments:2});
+geo.translate(0,0,-0.035);
+const bronze=new THREE.MeshStandardMaterial({color:0x9a6a3c,roughness:0.45,metalness:0.35});
+const gn=new THREE.Mesh(geo,bronze); const m4=new THREE.Matrix4().makeBasis(new THREE.Vector3(0,0,-1),new THREE.Vector3(0,1,0),new THREE.Vector3(1,0,0));
+gn.applyMatrix4(m4); gn.position.y=0.185; gn.castShadow=true; gn.receiveShadow=true; scene.add(gn);
+const sunBall=new THREE.Mesh(new THREE.SphereGeometry(0.09,32,16), new THREE.MeshStandardMaterial({color:0xd8a93a,roughness:0.25,metalness:1})); sunBall.position.set(0,h+0.185,-fy); sunBall.castShadow=true; scene.add(sunBall);
+// مقاعد حجرية حول الحلقة
+for(let i=0;i<8;i++){const a=(i+0.5)*Math.PI/4; const b=new THREE.Mesh(new THREE.BoxGeometry(2.4,0.45,0.55), std(0xcdb895,0.85)); b.position.set(Math.sin(a)*10.6,0.225,Math.cos(a)*10.6); b.rotation.y=a; b.castShadow=b.receiveShadow=true; scene.add(b)}
+// أشجار ونخيل
+const camAz=[Math.atan2(15.5,13.5), Math.atan2(19,21), Math.atan2(6.2,4.6)];
+const blocked=(x,z)=>{const a=Math.atan2(x,z); return camAz.some(c=>Math.abs(((a-c+Math.PI*3)%(Math.PI*2))-Math.PI)<0.42) && Math.hypot(x,z)<30};
+const tree=(x,z,s)=>{if(blocked(x,z)) return;const t=new THREE.Mesh(new THREE.CylinderGeometry(0.12*s,0.18*s,2.2*s,8), std(0x6b4e33)); t.position.set(x,1.1*s,z); t.castShadow=true; scene.add(t);
+ const col=new THREE.Color().setHSL(0.24+rnd()*0.06,0.38,0.24+rnd()*0.08);
+ for(const [dx,dy,dz,r] of [[0,2.9,0,1.4],[0.7,2.5,0.3,1.0],[-0.6,2.6,-0.4,1.05],[0.1,3.5,0.2,0.9]]){const c=new THREE.Mesh(new THREE.IcosahedronGeometry(r*s,2), std(col,0.95)); c.position.set(x+dx*s,dy*s,z+dz*s); c.castShadow=true; c.receiveShadow=true; scene.add(c)}};
+const palm=(x,z,s)=>{if(blocked(x,z)) return;const t=new THREE.Mesh(new THREE.CylinderGeometry(0.16*s,0.24*s,7*s,8), std(0x8a6a48)); t.position.set(x,3.5*s,z); t.castShadow=true; scene.add(t);
+ for(let i=0;i<11;i++){const a=i/11*Math.PI*2; const f=new THREE.Mesh(new THREE.ConeGeometry(0.22*s,3.4*s,3), std(0x55712f,0.9)); f.position.set(x+Math.sin(a)*1.3*s,7*s-0.2,z+Math.cos(a)*1.3*s); f.rotation.set(Math.cos(a)*1.25,0,-Math.sin(a)*1.25); f.castShadow=true; scene.add(f)}};
+for(let i=0;i<16;i++){const a=i/16*Math.PI*2+0.1; const r=14+rnd()*1.5; if(i%2) palm(Math.sin(a)*r,Math.cos(a)*r,0.9+rnd()*0.25); else tree(Math.sin(a)*r,Math.cos(a)*r,0.9+rnd()*0.4)}
+for(let i=0;i<60;i++){const a=rnd()*Math.PI*2, r=22+rnd()*45; if(Math.abs(Math.sin(a*2))<0.12) continue; (rnd()<0.4?palm:tree)(Math.sin(a)*r,Math.cos(a)*r,0.9+rnd()*0.6)}
+// سياج نباتي منخفض
+for(let i=0;i<48;i++){const a=i/48*Math.PI*2; if(blocked(Math.sin(a)*12.4,Math.cos(a)*12.4)) continue; if([0,12,24,36].some(k=>Math.abs(i-k)<2||Math.abs(i-48-k)<2)) continue; const hdg=new THREE.Mesh(new THREE.BoxGeometry(1.25,0.7,0.7), std(0x5d7a34,1)); hdg.position.set(Math.sin(a)*12.4,0.35,Math.cos(a)*12.4); hdg.rotation.y=a; hdg.castShadow=hdg.receiveShadow=true; scene.add(hdg)}
+// زوار
+const person=(x,z,c,ht=1.7)=>{const b=new THREE.Mesh(new THREE.CapsuleGeometry(0.2,ht-0.65,4,8), std(c,0.9)); const yb0=Math.hypot(x,z)<7.3?0.185:0.02; b.position.set(x,(ht-0.25)/2+yb0,z); b.castShadow=true; scene.add(b); const hd=new THREE.Mesh(new THREE.SphereGeometry(0.12,16,8), std(0x8c6a50)); hd.position.set(x,ht+0.05+yb0-0.2,z); hd.castShadow=true; scene.add(hd)};
+person(2.6,1.2,0x2f4f6f); person(3.1,1.6,0xa0522d,1.25); person(-4.2,-2.4,0x6d4c7d); person(5.6,-4.0,0x3f6f4f); person(-8.8,6.0,0x8a5a3a); person(-2.2,3.6,0xb08850,1.6);
+// تلال الفسطاط ومئذنة في الأفق
+for(let i=0;i<9;i++){const a=-0.6+i*0.17; const hill=new THREE.Mesh(new THREE.SphereGeometry(14+rnd()*8,24,12,0,Math.PI*2,0,Math.PI/2), std(0xc9b48c,1)); hill.scale.y=0.22; hill.position.set(Math.sin(a)*110,-1,-Math.cos(a)*110); scene.add(hill)}
+const min=new THREE.Group(); const m1=new THREE.Mesh(new THREE.CylinderGeometry(1.1,1.4,14,8),std(0xd8c39a)); m1.position.y=7; const m2=new THREE.Mesh(new THREE.CylinderGeometry(0.8,0.9,8,8),std(0xd8c39a)); m2.position.y=18; const m3=new THREE.Mesh(new THREE.ConeGeometry(0.9,3,8),std(0x9a8462)); m3.position.y=23.5; const b1=new THREE.Mesh(new THREE.CylinderGeometry(1.7,1.7,0.5,12),std(0xcbb68c)); b1.position.y=14.2; const b2=new THREE.Mesh(new THREE.CylinderGeometry(1.3,1.3,0.4,12),std(0xcbb68c)); b2.position.y=22; min.add(m1,m2,m3,b1,b2); min.position.set(-48,0,-85); scene.add(min);
+// أعمدة إنارة
+for(let i=0;i<4;i++){const a=i*Math.PI/2+0.32; const l=new THREE.Mesh(new THREE.CylinderGeometry(0.06,0.08,4,8),std(0x3a3632,0.5,0.6)); l.position.set(Math.sin(a)*9.3,2,Math.cos(a)*9.3); l.castShadow=true; scene.add(l); const lb=new THREE.Mesh(new THREE.SphereGeometry(0.22,16,8),std(0xf6eacc,0.3)); lb.position.set(Math.sin(a)*9.3,4.1,Math.cos(a)*9.3); scene.add(lb)}
+// الكاميرات
+const cam=new THREE.PerspectiveCamera(view==='aerial'?38:42, W/H, 0.1, 600);
+if(view==='aerial'){cam.position.set(19,22,21); cam.lookAt(0,0,-0.5)}
+else if(view==='detail'){cam.position.set(6.2,2.2,4.6); cam.lookAt(-0.6,0.7,0.2)}
+else {cam.position.set(14.5,3.6,12.6); cam.lookAt(-0.5,0.8,-0.3)}
+function go(){renderer.render(scene,cam); window.DONE=true;}
+</script></body></html>
