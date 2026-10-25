@@ -2,8 +2,8 @@
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
 (async () => {
-  const dir = path.join(__dirname, '..', 'drawings', 'svg');
-  const outPdf = path.join(__dirname, '..', 'drawings', 'pdf'), outPng = path.join(__dirname, '..', 'drawings', 'png');
+  const base = process.env.SET || 'drawings'; const dir = path.join(__dirname, '..', base, 'svg');
+  const outPdf = path.join(__dirname, '..', base, 'pdf'), outPng = path.join(__dirname, '..', base, 'png');
   fs.mkdirSync(outPdf, { recursive: true }); fs.mkdirSync(outPng, { recursive: true });
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
   const only = process.argv[2];
