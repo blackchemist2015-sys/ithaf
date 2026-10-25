@@ -13,9 +13,9 @@ def hour_numeral(H):
     return ar_digits(h)
 
 
-def a01():
+def a01(meta=None, overlay=None):
     sh = Sheet(); v = View(500, 297, 30)
-    frame(sh, 'لوحة الوجه: الرسم الحسابي', ['خطوط الساعات والبروج والظهر والعصر والقبلة',
+    (lambda *a: frame(sh, *meta) if meta else frame(sh, *a))('لوحة الوجه: الرسم الحسابي', ['خطوط الساعات والبروج والظهر والعصر والقبلة',
           'مرسومة بالحساب لعرض الفسطاط 30.0054° ش'], 'A-01', '1:30 (على لوح A1)',
           'التصميم (أ): مزولة ابن الشاطر الحديثة',
           ['• الوجه أفقي تمامًا (ميل ≤ 1:2000)، والصرف بمجرى خفي في الحلقة.',
@@ -185,6 +185,7 @@ def a01():
         sh.ltr(lx - 62, ty, f'h = {h:+.2f}°', 2.3, 'middle', SANS, INK, 600)
         ty += 5.2
     sh.text(lx, ty + 2, 'الموجب نحو الشرق (بعد الظهر)', 2.0, 'end', SANS, GREY)
+    if overlay: overlay(sh, v)
     north_arrow(sh, 805, 470)
     scale_bar(sh, v, 768, 510, 2, 1)
     return sh

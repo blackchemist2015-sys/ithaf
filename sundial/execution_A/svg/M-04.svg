@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594"><defs></defs><rect width="841" height="594" fill="#fffdf8"/><rect x="10" y="10" width="821" height="574" rx="0" stroke="#1d1b19" stroke-width="0.7" fill="none"/>
+<rect x="12" y="12" width="150" height="570" rx="0" stroke="#1d1b19" stroke-width="0.35" fill="none"/>
+<text x="157" y="24" font-size="4.2" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">مشروع حدائق الفسطاط — المرحلة الثانية</text>
+<text x="157" y="31" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">منطقة الحدائق التراثية • البند SF-12: المزولة الشمسية</text>
+<path d="M16,37 L158,37" stroke="#1d1b19" stroke-width="0.3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="157" y="46" font-size="5.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#b4532a" direction="rtl">النموذج المصغر للتصميم (أ)</text>
+<text x="157" y="55" font-size="4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">بروتوكول اختبار النموذج ومعايرته</text>
+<text x="157" y="61.5" font-size="2.8" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">قراءات متوقعة لأيام الاختبار</text>
+<text x="157" y="66.1" font-size="2.8" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">ونموذج تسجيل الرصد</text>
+<path d="M16,73.7 L158,73.7" stroke="#1d1b19" stroke-width="0.3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="157" y="80.7" font-size="3.4" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">ملاحظات</text>
+<text x="157" y="86.7" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• الاختبار في القاهرة الكبرى (الفرق في الموقع مهمل).</text>
+<text x="157" y="91" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• الأوقات بالتوقيت الشتوي UTC+2 (بعد 29 أكتوبر 2026).</text>
+<text x="157" y="95.3" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• تُضبط الساعة المرجعية على توقيت الشبكة قبل الرصد.</text>
+<text x="157" y="99.6" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• معيار القبول: فرق الوقت ≤ 1 دقيقة،</text>
+<text x="157" y="103.9" font-size="2.55" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">   وموضع ظل الكرة ≤ 1.5 مم من المتوقع.</text>
+<path d="M12,524 L162,524" stroke="#1d1b19" stroke-width="0.35" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="157" y="530" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">الموقع</text>
+<text x="17" y="530" font-size="2.7" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">φ = 30.0054° ش  •  λ = 31.2443° ق</text>
+<text x="157" y="537.2" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">مركز المزولة (الحزام الأحمر)</text>
+<text x="17" y="537.2" font-size="2.7" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">E 638413.3  •  N 810602.7</text>
+<text x="157" y="544.4" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">القطر</text>
+<text x="17" y="544.4" font-size="2.7" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="ltr">14.50 م</text>
+<text x="157" y="551.6" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">مقياس الرسم</text>
+<text x="17" y="551.6" font-size="2.7" text-anchor="end" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="rtl">—</text>
+<text x="157" y="558.8" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">التاريخ</text>
+<text x="17" y="558.8" font-size="2.7" text-anchor="end" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="rtl">أكتوبر 2026</text>
+<text x="157" y="566" font-size="2.5" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#8a847c" direction="rtl">الحالة</text>
+<text x="17" y="566" font-size="2.7" text-anchor="end" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="600" fill="#1d1b19" direction="rtl">مقترح تصميمي للمفاضلة</text>
+<rect x="16" y="568" width="34" height="12" rx="0" stroke="#1d1b19" stroke-width="0.4" fill="none"/>
+<text x="33" y="574" font-size="5.2" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="ltr">M-04</text>
+<text x="830" y="60" font-size="3.36" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">خطوات الاختبار</text>
+<text x="830" y="65.1" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">١. ضع النموذج على سطح ثابت مكشوف للشمس من 9 صباحًا إلى 3 عصرًا.</text>
+<text x="830" y="70.2" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">٢. اضبط الأرجل حتى تتوسط فقاعة الميزان في الاتجاهين.</text>
+<text x="830" y="75.3" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">٣. التوجيه: أدِر النموذج حتى ينطبق ظل النصل على خط الزوال في وقت الظهر الحقيقي المبيّن، ثم ثبّته.</text>
+<text x="830" y="80.4" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">٤. سجّل وقت انطباق ظل النصل على خطوط الساعات، وموضع ظل الكرة في الأوقات المبيّنة.</text>
+<text x="830" y="85.5" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">٥. كرّر في ثلاثة أيام متباعدة؛ إن تجاوز الفرق الحد راجع الاستواء ثم زاوية النصل ثم الطباعة.</text>
+<text x="830" y="135" font-size="3.6" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الوقت المتوقع لانطباق ظل النصل على خطوط الساعات (UTC+2)</text>
+<rect x="618" y="142" width="212" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#e8dfcc"/>
+<text x="815" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">التاريخ</text>
+<text x="787" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الزوال</text>
+<text x="761" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">9</text>
+<text x="735" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">10</text>
+<text x="709" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">11</text>
+<text x="683" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">1</text>
+<text x="657" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">2</text>
+<text x="631" y="147" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">3</text>
+<text x="815" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">5 نوفمبر</text>
+<text x="787" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:39</text>
+<text x="761" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">08:44</text>
+<text x="735" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">09:44</text>
+<text x="709" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">10:44</text>
+<text x="683" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">12:44</text>
+<text x="657" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">13:44</text>
+<text x="631" y="157" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">14:44</text>
+<rect x="618" y="161" width="212" height="8" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="815" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">15 نوفمبر</text>
+<text x="787" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:40</text>
+<text x="761" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">08:45</text>
+<text x="735" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">09:45</text>
+<text x="709" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">10:45</text>
+<text x="683" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">12:45</text>
+<text x="657" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">13:45</text>
+<text x="631" y="165" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">14:45</text>
+<text x="815" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">25 نوفمبر</text>
+<text x="787" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:42</text>
+<text x="761" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">08:47</text>
+<text x="735" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">09:47</text>
+<text x="709" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">10:47</text>
+<text x="683" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">12:47</text>
+<text x="657" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">13:47</text>
+<text x="631" y="173" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">14:47</text>
+<rect x="618" y="177" width="212" height="8" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="815" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">5 ديسمبر</text>
+<text x="787" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:46</text>
+<text x="761" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">08:51</text>
+<text x="735" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">09:51</text>
+<text x="709" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">10:51</text>
+<text x="683" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">12:51</text>
+<text x="657" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">13:51</text>
+<text x="631" y="181" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">14:51</text>
+<text x="815" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">15 ديسمبر</text>
+<text x="787" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:50</text>
+<text x="761" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">08:55</text>
+<text x="735" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">09:55</text>
+<text x="709" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">10:55</text>
+<text x="683" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">12:55</text>
+<text x="657" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">13:55</text>
+<text x="631" y="189" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">14:55</text>
+<rect x="618" y="193" width="212" height="8" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="815" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">25 ديسمبر</text>
+<text x="787" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:55</text>
+<text x="761" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">09:00</text>
+<text x="735" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">10:00</text>
+<text x="709" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">11:00</text>
+<text x="683" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">13:00</text>
+<text x="657" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">14:00</text>
+<text x="631" y="197" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">15:00</text>
+<path d="M618,201 L830,201" stroke="#8a847c" stroke-width="0.2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="830" y="215" font-size="3.6" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">موضع ظل الكرة المتوقع (مم من مركز الوجه: x , y)</text>
+<rect x="680" y="222" width="150" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#e8dfcc"/>
+<text x="815" y="227" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">التاريخ</text>
+<text x="780" y="227" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">10:00</text>
+<text x="740" y="227" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">12:00</text>
+<text x="700" y="227" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">14:00</text>
+<text x="815" y="237" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">5 نوفمبر</text>
+<text x="780" y="237" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">-103.2 , +209.5</text>
+<text x="740" y="237" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+20.7 , +201.3</text>
+<text x="700" y="237" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+163.9 , +221.4</text>
+<rect x="680" y="241" width="150" height="8" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="815" y="245" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">15 نوفمبر</text>
+<text x="780" y="245" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">-108.9 , +229.2</text>
+<text x="740" y="245" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+20.5 , +218.2</text>
+<text x="700" y="245" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+170.2 , +243.8</text>
+<text x="815" y="253" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">25 نوفمبر</text>
+<text x="780" y="253" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">-116.3 , +247.4</text>
+<text x="740" y="253" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+18.7 , +233.2</text>
+<text x="700" y="253" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+173.1 , +263.1</text>
+<rect x="680" y="257" width="150" height="8" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="815" y="261" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">5 ديسمبر</text>
+<text x="780" y="261" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">-124.8 , +262.6</text>
+<text x="740" y="261" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+15.3 , +244.7</text>
+<text x="700" y="261" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+171.8 , +276.9</text>
+<text x="815" y="269" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">15 ديسمبر</text>
+<text x="780" y="269" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">-133.7 , +272.8</text>
+<text x="740" y="269" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+10.6 , +251.3</text>
+<text x="700" y="269" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+166.6 , +283.3</text>
+<rect x="680" y="273" width="150" height="8" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="815" y="277" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">25 ديسمبر</text>
+<text x="780" y="277" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">-141.7 , +276.3</text>
+<text x="740" y="277" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+5.3 , +252.1</text>
+<text x="700" y="277" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="ltr">+158.2 , +281.5</text>
+<path d="M680,281 L830,281" stroke="#8a847c" stroke-width="0.2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="830" y="295" font-size="3.6" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">نموذج تسجيل الرصد</text>
+<rect x="474" y="301" width="356" height="12" rx="0" stroke="#1d1b19" stroke-width="0" fill="#e8dfcc"/>
+<text x="812" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">التاريخ</text>
+<text x="771" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الوقت المرصود</text>
+<text x="735" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الخط</text>
+<text x="699" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الوقت المتوقع</text>
+<text x="658" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">الفرق (د)</text>
+<text x="612" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">ظل الكرة x,y</text>
+<text x="529" y="307" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">ملاحظات</text>
+<text x="812" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="319" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<rect x="474" y="324" width="356" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="812" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="329" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="812" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="339" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<rect x="474" y="344" width="356" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="812" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="349" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="812" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="359" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<rect x="474" y="364" width="356" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="812" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="369" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="812" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="379" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<rect x="474" y="384" width="356" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="812" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="389" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="812" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="399" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<rect x="474" y="404" width="356" height="10" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="812" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="771" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="735" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="699" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="658" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="612" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<text x="529" y="409" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl"></text>
+<path d="M474,414 L830,414" stroke="#8a847c" stroke-width="0.2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="830" y="425" font-size="3.2" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">الراصد: ____________    التوقيع: ____________    حالة السماء: ____________</text></svg>
