@@ -11,7 +11,7 @@ const fs = require('fs'), path = require('path');
   for (const f of files) {
     const svg = fs.readFileSync(path.join(dir, f), 'utf8');
     const w = +svg.match(/width="([\d.]+)mm"/)[1], h = +svg.match(/height="([\d.]+)mm"/)[1];
-    const html = `<html><head><meta charset="utf-8"><style>@page{size:${w}mm ${h}mm;margin:0}body{margin:0}svg{display:block;width:${w}mm;height:${h}mm}</style></head><body>${svg}</body></html>`;
+    const html = `<html><head><meta charset="utf-8"><style>@page{size:${w}mm ${h}mm;margin:0}body{margin:0}body>svg{display:block;width:${w}mm;height:${h}mm}</style></head><body>${svg}</body></html>`;
     const tmp = path.join(outPdf, '_tmp.html'); fs.writeFileSync(tmp, html);
     const pg = await b.newPage({ viewport: { width: Math.round(w * 3.78), height: Math.round(h * 3.78) }, deviceScaleFactor: process.env.DSF ? +process.env.DSF : 1.4 });
     await pg.goto('file://' + tmp); await pg.evaluate(() => document.fonts.ready); await pg.waitForTimeout(200);

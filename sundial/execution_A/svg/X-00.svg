@@ -70,11 +70,14 @@
 <text x="819" y="239" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">—</text>
 <text x="728" y="239" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">طريقة التنفيذ وجدول الكميات: Method_Statement_A.docx</text>
 <rect x="648" y="243.5" width="182" height="9" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
-<text x="819" y="248" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">—</text>
-<text x="728" y="248" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">ملفات القص: dxf/ (الوجه، الحلقة، الشاخص، بلاطة لكل ملف)</text>
+<text x="819" y="248" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">X-08</text>
+<text x="728" y="248" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">جدول قطع الحجر وحفرها وعددها (19 لوحة A3)</text>
 <text x="819" y="257" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">—</text>
-<text x="728" y="257" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">نسخ اللوحات القابلة للتعديل: dxf_sheets/ وsvg/</text>
-<path d="M648,261.5 L830,261.5" stroke="#8a847c" stroke-width="0.2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<text x="728" y="257" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">ملفات القص: dxf/ (الوجه، الحلقة، الشاخص، بلاطة لكل ملف)</text>
+<rect x="648" y="261.5" width="182" height="9" rx="0" stroke="#1d1b19" stroke-width="0" fill="#f4eee2"/>
+<text x="819" y="266" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">—</text>
+<text x="728" y="266" font-size="3" text-anchor="middle" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">نسخ اللوحات القابلة للتعديل: dxf_sheets/ وsvg/</text>
+<path d="M648,270.5 L830,270.5" stroke="#8a847c" stroke-width="0.2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
 <text x="560" y="120" font-size="3.36" text-anchor="start" dominant-baseline="central" font-family="'Noto Kufi Arabic', 'Amiri', sans-serif" font-weight="700" fill="#1d1b19" direction="rtl">مواد رئيسية</text>
 <text x="560" y="125.1" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• الوجه: رخام جلالة كريمي 40 مم مصقول مطفأ (honed).</text>
 <text x="560" y="130.2" font-size="3" text-anchor="start" dominant-baseline="central" font-family="'IBM Plex Sans Arabic', 'Amiri', sans-serif" font-weight="400" fill="#1d1b19" direction="rtl">• حلقة التقويم: جرانيت رمادي (رمادي إسكندراني) 40 مم.</text>

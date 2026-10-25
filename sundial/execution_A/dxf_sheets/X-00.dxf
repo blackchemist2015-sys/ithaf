@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461339.389988426
+2461339.4000925925
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461339.389988426
+2461339.4000925925
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-E7
+EA
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{170C37BD-F74E-46F4-ADD7-C3789D1110A9}
+{CD69CA04-1D80-43B7-AF1F-D92A38738D35}
   9
 $VERSIONGUID
   2
-{6071C485-87F4-4521-9670-FAD5704456D3}
+{E3726EE6-2EEA-486B-9B94-E828DF6050EC}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -3191,7 +3191,7 @@ ACAD
   0
 APPID
   5
-E4
+E7
 330
 3
 100
@@ -3205,7 +3205,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-E5
+E8
 330
 3
 100
@@ -7863,7 +7863,7 @@ AcDbText
  40
 2.16
   1
-—
+X-08
   7
 AR
  72
@@ -7899,7 +7899,7 @@ AcDbText
  40
 2.16
   1
-(ﻒﻠﻣ ﻞﻜﻟ ﺔﻃﻼﺑ ،ﺺﺧﺎﺸﻟﺍ ،ﺔﻘﻠﺤﻟﺍ ،ﻪﺟﻮﻟﺍ) /dxf :ﺺﻘﻟﺍ ﺕﺎﻔﻠﻣ
+(A3 ﺔﺣﻮﻟ 19) ﺎﻫﺩﺪﻋﻭ ﺎﻫﺮﻔﺣﻭ ﺮﺠﺤﻟﺍ ﻊﻄﻗ ﻝﻭﺪﺟ
   7
 AR
  72
@@ -7971,7 +7971,7 @@ AcDbText
  40
 2.16
   1
-/svgﻭ /dxf_sheets :ﻞﻳﺪﻌﺘﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺕﺎﺣﻮﻠﻟﺍ ﺦﺴﻧ
+(ﻒﻠﻣ ﻞﻜﻟ ﺔﻃﻼﺑ ،ﺺﺧﺎﺸﻟﺍ ،ﺔﻘﻠﺤﻟﺍ ،ﻪﺟﻮﻟﺍ) /dxf :ﺺﻘﻟﺍ ﺕﺎﻔﻠﻣ
   7
 AR
  72
@@ -7995,6 +7995,112 @@ DA
 100
 AcDbEntity
   8
+C1d1b19
+370
+13
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+648.0
+ 20
+332.5
+ 10
+830.0
+ 20
+332.5
+ 10
+830.0
+ 20
+323.5
+ 10
+648.0
+ 20
+323.5
+  0
+TEXT
+  5
+DB
+330
+17
+100
+AcDbEntity
+  8
+C1d1b19
+100
+AcDbText
+ 10
+819.0
+ 20
+328.0
+ 30
+0.0
+ 40
+2.16
+  1
+—
+  7
+AR
+ 72
+1
+ 11
+819.0
+ 21
+328.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+TEXT
+  5
+DC
+330
+17
+100
+AcDbEntity
+  8
+C1d1b19
+100
+AcDbText
+ 10
+728.0
+ 20
+328.0
+ 30
+0.0
+ 40
+2.16
+  1
+/svgﻭ /dxf_sheets :ﻞﻳﺪﻌﺘﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺕﺎﺣﻮﻠﻟﺍ ﺦﺴﻧ
+  7
+AR
+ 72
+1
+ 11
+728.0
+ 21
+328.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+LWPOLYLINE
+  5
+DD
+330
+17
+100
+AcDbEntity
+  8
 C8a847c
 370
 20
@@ -8007,15 +8113,15 @@ AcDbPolyline
  10
 648.0
  20
-332.5
+323.5
  10
 830.0
  20
-332.5
+323.5
   0
 TEXT
   5
-DB
+DE
 330
 17
 100
@@ -8051,7 +8157,7 @@ AcDbText
   0
 TEXT
   5
-DC
+DF
 330
 17
 100
@@ -8087,7 +8193,7 @@ AcDbText
   0
 TEXT
   5
-DD
+E0
 330
 17
 100
@@ -8123,7 +8229,7 @@ AcDbText
   0
 TEXT
   5
-DE
+E1
 330
 17
 100
@@ -8159,7 +8265,7 @@ AcDbText
   0
 TEXT
   5
-DF
+E2
 330
 17
 100
@@ -8195,7 +8301,7 @@ AcDbText
   0
 TEXT
   5
-E0
+E3
 330
 17
 100
@@ -8231,7 +8337,7 @@ AcDbText
   0
 TEXT
   5
-E1
+E4
 330
 17
 100
@@ -8267,7 +8373,7 @@ AcDbText
   0
 TEXT
   5
-E2
+E5
 330
 17
 100
@@ -8303,7 +8409,7 @@ AcDbText
   0
 TEXT
   5
-E3
+E6
 330
 17
 100
@@ -9427,7 +9533,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-E6
+E9
   0
 DICTIONARYVAR
   5
@@ -9439,7 +9545,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-25T09:21:35.846931+00:00
+1.4.5 @ 2026-10-25T09:36:08.003746+00:00
   0
 VISUALSTYLE
   5
@@ -10143,7 +10249,7 @@ X-Ray
   0
 DICTIONARYVAR
   5
-E6
+E9
 330
 2D
 100
@@ -10151,7 +10257,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-25T09:21:35.871350+00:00
+1.4.5 @ 2026-10-25T09:36:08.026685+00:00
   0
 ENDSEC
   0

@@ -70,8 +70,16 @@ class GeoA:
                 g = sq.intersection(circle).difference(slot)
                 if g.is_empty or g.area < 0.0025*s*s: continue
                 col = chr(ord('A') + i + n); row = n - j
-                out.append(dict(id=f'{col}{row:02d}', poly=g, square=sq, full=abs(g.area - sq.area) < 1e-6, origin=(i*TILE*s, j*TILE*s)))
-        return out
+                out.append(dict(id=f'{col}{row:02d}', poly=g, square=sq, full=abs(g.area - sq.area) < 1e-6, origin=(i*TILE*s, j*TILE*s), merged=None))
+        # الشرائح الصغيرة (< 0.06 م²) تُضم إلى البلاطة المجاورة نحو المركز حتى لا تُقص قطع هشة
+        small = [t for t in out if t['poly'].area < 0.06*s*s]
+        for t in small:
+            c = t['poly'].centroid
+            nb = max((u for u in out if u is not t and u not in small),
+                     key=lambda u: u['poly'].boundary.intersection(t['poly'].boundary).length)
+            nb['poly'] = unary_union([nb['poly'], t['poly']]).buffer(0)
+            nb['full'] = False; nb['merged'] = t['id']
+        return [t for t in out if t not in small]
 
     def ring_sectors(self, n=36):
         out = []
